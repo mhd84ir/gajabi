@@ -1,0 +1,1982 @@
+﻿<noscript>
+    <div class="wt-body-max-width wt-pt-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-pl-md-4 wt-pr-md-4 wt-pt-md-3 wt-pb-xs-0">
+        <div id="javascript-nag" class="wt-alert wt-alert--inline wt-alert--success-01 wt-mb-xs-2">
+            <div> Profitez de l'ensemble des fonctionnalités du site en activant le Javascript. </div>
+        </div>
+    </div>
+</noscript>
+
+        
+
+
+            <!-- WebVitals -->
+<script type="text/javascript" charset="utf-8" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe">
+    var webVitals=function(e){"use strict";var n,t=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},r=function(e){if("loading"===document.readyState)return"loading";var n=t();if(n){if(e<n.domInteractive)return"loading";if(0===n.domContentLoadedEventStart||e<n.domContentLoadedEventStart)return"dom-interactive";if(0===n.domComplete||e<n.domComplete)return"dom-content-loaded"}return"complete"},i=function(e){var n=e.nodeName;return 1===e.nodeType?n.toLowerCase():n.toUpperCase().replace(/^#/,"")},a=function(e,n){var t="";try{for(;e&&9!==e.nodeType;){var r=e,a=r.id?"#"+r.id:i(r)+(r.className&&r.className.length?"."+r.className.replace(/\s+/g,"."):"");if(t.length+a.length>(n||100)-1)return t||a;if(t=t?a+">"+t:a,r.id)break;e=r.parentNode}}catch(e){}return t},o=-1,c=function(e,n,t,r){var i,a;return function(o){n.value>=0&&(o||r)&&((a=n.value-(i||0))||void 0===i)&&(i=n.value,n.delta=a,n.rating=function(e,n){return e>n[1]?"poor":e>n[0]?"needs-improvement":"good"}(n.value,t),e(n))}},u=function(e,n){var r=t(),i="navigate";return o>=0?i="back-forward-cache":r&&(i=document.prerendering||function(){var e=t();return e&&e.activationStart||0}()>0?"prerender":document.wasDiscarded?"restore":r.type.replace(/_/g,"-")),{name:e,value:void 0===n?-1:n,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:i}},d=function(e,n,t){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){var r=new PerformanceObserver((function(e){Promise.resolve().then((function(){n(e.getEntries())}))}));return r.observe(Object.assign({type:e,buffered:!0},t||{})),r}}catch(e){}},s=0,f=1/0,v=0,l=function(e){e.forEach((function(e){e.interactionId&&(f=Math.min(f,e.interactionId),v=Math.max(v,e.interactionId),s=v?(v-f)/7+1:0)}))},p=function(){return n?s:performance.interactionCount||0},m=function(){"interactionCount"in performance||n||(n=d("event",l,{type:"event",buffered:!0,durationThreshold:0}))},g=0,h=function(){return p()-g},y=[],E={},b=function(e){var n=y[y.length-1],t=E[e.interactionId];if(t||y.length<10||e.duration>n.latency){if(t)t.entries.push(e),t.latency=Math.max(t.latency,e.duration);else{var r={id:e.interactionId,latency:e.duration,entries:[e]};E[r.id]=r,y.push(r)}y.sort((function(e,n){return n.latency-e.latency})),y.splice(10).forEach((function(e){delete E[e.id]}))}},T=function(e,n){var t;n=n||{},t=function(){var t=[200,500];m();var r,i,a,s,f=u("INP"),v=function(e){e.forEach((function(e){e.interactionId&&b(e),"first-input"===e.entryType&&!y.some((function(n){return n.entries.some((function(n){return e.duration===n.duration&&e.startTime===n.startTime}))}))&&b(e)}));var n,t=(n=Math.min(y.length-1,Math.floor(h()/50)),y[n]);t&&t.latency!==f.value&&(f.value=t.latency,f.entries=t.entries,r())},l=d("event",v,{durationThreshold:n.durationThreshold||40});r=c(e,f,t,n.reportAllChanges),l&&(l.observe({type:"first-input",buffered:!0}),i=function(){v(l.takeRecords()),f.value<0&&h()>0&&(f.value=0,f.entries=[]),r(!0)},s=function e(n){"pagehide"!==n.type&&"hidden"!==document.visibilityState||(i(n),a&&(removeEventListener("visibilitychange",e,!0),removeEventListener("pagehide",e,!0)))},addEventListener("visibilitychange",s,!0),addEventListener("pagehide",s,!0),function(e){addEventListener("pageshow",(function(n){n.persisted&&(o=n.timeStamp,e(n))}),!0)}((function(){y=[],g=p(),f=u("INP"),r=c(e,f,t,n.reportAllChanges)})))},document.prerendering?addEventListener("prerenderingchange",(function(){return t()}),!0):t()};return e.onINP=function(e,n){T((function(n){!function(e){if(e.entries.length){var n=e.entries.sort((function(e,n){return n.duration-e.duration||n.processingEnd-n.processingStart-(e.processingEnd-e.processingStart)}))[0];e.attribution={eventTarget:a(n.target),eventType:n.name,eventTime:n.startTime,eventEntry:n,loadState:r(n.startTime)}}else e.attribution={}}(n),e(n)}),n)},Object.defineProperty(e,"__esModule",{value:!0}),e}({});
+</script>
+<!-- /WebVitals -->
+
+        <script nonce="XHHnu1Hy7PxYV8p0AwU4ScNe">
+        window.Etsy=window.Etsy||{};
+        Etsy.Context=Etsy.Context||{};
+
+        (function() {
+            function assign(firstSource, secondSource) {
+                if (!secondSource) {
+                  return;
+                }
+
+                var out = Object(firstSource);
+
+                for (var key in secondSource) {
+                    // Avoid bugs when hasOwnProperty is shadowed
+                    if (Object.prototype.hasOwnProperty.call(secondSource, key)) {
+                        out[key] = secondSource[key];
+                    }
+                }
+                return out;
+            }
+
+            Etsy.Context.feature=assign(Etsy.Context.feature ? Etsy.Context.feature : {}, {"isAppShellEnabled":true});
+            Etsy.Context.data=assign(Etsy.Context.data ? Etsy.Context.data : {}, {"is_mobile":false,"should_auto_redirect":false,"locale_settings":{"language":{"code":"fr","id":3,"name":"Fran\u00e7ais","translation":"French","is_detected":true,"is_default":false},"currency":{"currency_id":978,"code":"EUR","name":"Euro","number_precision":2,"symbol":"\u20ac","listing_enabled":true,"browsing_enabled":true,"buyer_location_restricted":false,"rate_updates_enabled":true,"is_detected":true,"is_default":false,"append_currency_symbol":true},"region":{"code":"FR","country_id":103,"name":"France","translation":"France","is_detected":true,"is_default":false,"is_EU_region":true},"subdir_code":"fr"},"neu_api_specs_sample_rate":null,"FB_GRAPHQL_VERSION":"v2.10","page_guid":"f621be57bc4.b3dbddc4559b3f27bf03.00","primary_event_name":"home","request_uuid":"EuYptpRVkNYpQBXpOAZB1oeleW1e","sign_in_modal_mweb":false,"user_is_test_account":false,"user_id":null,"css_variant":"sasquatch","guest_uaid":["fYp22RCwcKhJa-IOfnx8B67uQLqj","fYp22RCwcKhJa-IOfnx8B67uQLqj"],"etsyweb_granify_traffic":true,"is_app_shell":true,"csrf_nonce":["3:1691404923:wdz3YMKb2yWkl-463kM2ce8h337u:da5c1484e00705601502dfacfb8c243c948ef2ad1aabc8235b5131d309d2efec","3:1691404923:MEFB3oaRTM8pBYYQpLGpaheiJa1i:b5009f97e36d7fb7586b2a0501833c37104dffdc9a03209969868af874ba24b2"],"uaid_nonce":"3:1691404923:7Jm7uhhCojP4_OD1HfrB9SId7xcy:4d7245bf3791d7a470ccc2749363fc6325bda3e2534b60619816c6e9b1304b98","clientlogger":{"is_enabled":true,"endpoint":"\/clientlog","logs_per_page":6,"id":"EuYptpRVkNYpQBXpOAZB1oeleW1e","digest":"aff34d7ea9d1ae18dafecdbacec0e31edcafb593","enabled_features":["info","warn","error","basic","uncaught"]},"impact_tracker_should_prompt_signin":false,"impact_tracker_should_direct_open":false,"shop_favorites_see_all_link":"Voir tout","shop_favorites_search_header":"Boutiques auxquelles vous \u00eates abonn\u00e9","is_mobile_shop_search":false,"show_simplified_mobile_header":false,"is_eligible_for_ship_to_setting_in_global_header":false,"in_cart_count":0,"show_mini_cart":false,"page_type":"home","locale_acknowledgement_enabled":[true,true],"is_gift_guide_flyout_enabled":false,"should_hide_sub_nav":false,"use_mousedown_autosuggest_listener":false,"mweb_full_screen_search_dropdown":false,"relocate_cat_nav":false,"mott_version":"303be70","catnav_show_sales":false,"catnav_gift_guide":"off","gifting_catnav_flyout_js":false,"impact_message":{"footer_renewable_impact":{"impact_name":"footer_renewable_impact","impact_themes":["sustainability"],"impact_audiences":["buyers"]},"hp_whatisetsy_community":{"impact_name":"hp_whatisetsy_community","impact_themes":["general"],"impact_audiences":["buyers"]}},"videos_in_recs_modules_enabled":true,"saved_searches_enabled":false,"is_thank_you":false,"hp_lazy_load_footer":false,"open_overlay_instead_shipping_drawer":false,"has_activity":false,"include_strv_ads_sash_javascript":false,"use_collection_carousel_cards":false,"onsite_promos_enabled":false,"onsite_promos_variant":"ineligible","onsite_promos_carousel_variant":"carousel","show_video_in_listing_card":true,"show_collage_video_in_listing_card":true,"google_client_id":"296956783393-2d8r0gljo87gjmdpmvkgbeasdmelq33e.apps.googleusercontent.com","show_one_tap_modal":false,"load_user_faves_option":true,"update_many_faves_option":true,"is_async_only_faves_option":false,"guest_favorites_enabled":true,"collection_count":0,"favorites_key":"","use_clearer_privacy_description":true});
+        })();
+    </script>
+
+        <script nonce="XHHnu1Hy7PxYV8p0AwU4ScNe">__webpack_public_path__ = "https://www.etsy.com/ac/evergreenVendor/js/fr/";</script>
+
+<script nonce="XHHnu1Hy7PxYV8p0AwU4ScNe">(function() {
+var asyncAvailable = true;
+try {
+    eval("async () => {}");
+} catch(e) {
+    asyncAvailable = false;
+}
+
+var falseUA = true && !asyncAvailable;
+var primarySupportsAsync = !true && asyncAvailable;
+
+var clientloggerIsEnabled = true;
+if (clientloggerIsEnabled) {
+    if (falseUA) {
+        new Image().src = '/clientlog?falseua=1';
+    }
+    if (primarySupportsAsync) {
+        new Image().src = '/clientlog?primarysupportsasync=1';
+    }
+    if (window.__etsy_logging && window.__etsy_logging.bots && (window.__etsy_logging.bots.isBot || window.__etsy_logging.bots.botCheck.length > 0)) {
+        new Image().src = '/clientlog?feisbot=1&bot_check=' + encodeURIComponent(JSON.stringify(window.__etsy_logging.bots.botCheck));
+    }
+}
+
+})();</script>
+
+    <script type="text/javascript" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe" src="~/h_files/polyfill.min.js" defer=""></script>
+    <script type="text/javascript" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe" src="~/h_files/vendor_bundle.6d800a2a78ce383b6118.js" defer=""></script>
+    <script type="text/javascript" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe" src="~/h_files/index.3bbc0844dffe197924a4.js" defer=""></script>
+    <script type="text/javascript" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe" src="~/h_files/country-picker.c7b4d69dc5125d7534c6.js" defer=""></script>
+    <script type="text/javascript" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe" src="~/h_files/bootstrap.94b2a5cb5ec03a36db3b.js" defer=""></script>
+    <script type="text/javascript" nonce="XHHnu1Hy7PxYV8p0AwU4ScNe" src="~/h_files/bootstrap.a607203a38b61f3f5b8f.js" defer=""></script>
+
+        <main id="content" aria-hidden="false">
+            <div data-async-homepage-modules="">
+    <div>
+    
+        <div class="wt-text-center-xs wt-hide-xs wt-show-lg wt-p-md-3 wt-p-xs-3 wt-text-black wt-bg-orange-tint bg-no-color-header">
+    
+        <h1 class="wt-body-max-width wt-text-heading-01">
+    Pour vous, de nouvelles trouvailles estivales venant de vendeurs créatifs&nbsp;!
+</h1>
+</div><h2 class="wt-text-center-xs wt-show-xs wt-hide-lg wt-pt-xs-3 wt-pl-xs-2 wt-pr-xs-2 wt-text-heading wt-pb-xs-0 wt-text-black wt-bg-orange-tint bg-no-color-header">
+    Pour vous, de nouvelles trouvailles estivales venant de vendeurs créatifs&nbsp;!
+</h2><div data-appears-component-name="Homepage_Vesta_ApiSpec_ContentfulSearchBubbles">
+<div class="bubbles wt-body-max-width wt-position-relative  appears-ready">
+    <div class="background-color-block wt-viewport-width-full wt-position-absolute wt-bg-orange-tint"></div>
+    <ul class="wt-grid wt-grid--block wt-justify-content-center wt-pt-xs-1 wt-pl-xs-1 wt-pr-xs-1 wt-pt-md-0 wt-pl-md-4 wt-pr-md-4 wt-pl-lg-6 wt-pr-lg-6">
+            <li class="shopping-window wt-display-flex-xs wt-flex-direction-column-xs wt-grid__item-xs-4 wt-grid__item-md-2 wt-pl-xl-6 wt-pr-xl-6">
+                <a href="https://www.etsy.com/fr/search?q=d%C3%A9co+personnalis%C3%A9e&amp;anchor_listing_id=1171050685&amp;ref=hp_bubbles_AUGUST23_FR&amp;mosv=sese&amp;moci=1141224240634&amp;mosi=1159776576444&amp;is_merch_library=true" class="wt-text-link-no-underline shopping-window-interior">
+                        <div class="wt-horizontal-center query-image-container">
+                            <div class="wt-position-relative wt-skeleton-ui--image-square wt-mb-xs-1 wt-mb-md-2 wt-mt-xs-2">
+                                <img src="https://i.etsystatic.com/31688648/r/il/4e5908/3947643077/il_300x300.3947643077_bodn.jpg" class="query-image wt-position-absolute wt-position-top wt-position-left wt-b-xs wt-circle wt-width-full wt-height-full" alt="">
+                            </div>
+                        </div>
+                    <div class="query-with-image-text--border">
+                        <p class="wt-text-caption-title wt-line-height-tight wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-md-down" title="">
+                            Déco d'intérieur personnalisée
+                        </p>
+                        <p class="wt-text-title-01 wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-lg-up" title="">
+                            Déco d'intérieur personnalisée
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="shopping-window wt-display-flex-xs wt-flex-direction-column-xs wt-grid__item-xs-4 wt-grid__item-md-2 wt-pl-xl-6 wt-pr-xl-6">
+                <a href="https://www.etsy.com/fr/search?q=bijoux&amp;anchor_listing_id=716753595&amp;ref=hp_bubbles_AUGUST23_FR&amp;mosv=sese&amp;moci=1141224240634&amp;mosi=1182162845677&amp;is_merch_library=true" class="wt-text-link-no-underline shopping-window-interior">
+                        <div class="wt-horizontal-center query-image-container">
+                            <div class="wt-position-relative wt-skeleton-ui--image-square wt-mb-xs-1 wt-mb-md-2 wt-mt-xs-2">
+                                <img src="https://i.etsystatic.com/12613448/c/2250/2250/375/0/il/f052ef/2643397717/il_300x300.2643397717_ftgs.jpg" class="query-image wt-position-absolute wt-position-top wt-position-left wt-b-xs wt-circle wt-width-full wt-height-full" alt="">
+                            </div>
+                        </div>
+                    <div class="query-with-image-text--border">
+                        <p class="wt-text-caption-title wt-line-height-tight wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-md-down" title="">
+                            Bijoux
+                        </p>
+                        <p class="wt-text-title-01 wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-lg-up" title="">
+                            Bijoux
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="shopping-window wt-display-flex-xs wt-flex-direction-column-xs wt-grid__item-xs-4 wt-grid__item-md-2 wt-pl-xl-6 wt-pr-xl-6">
+                <a href="https://www.etsy.com/fr/search?q=cadeau+de+mariage&amp;anchor_listing_id=1437064141&amp;ref=hp_bubbles_AUGUST23_FR&amp;mosv=sese&amp;moci=1141224240634&amp;mosi=1174198461331&amp;is_merch_library=true" class="wt-text-link-no-underline shopping-window-interior">
+                        <div class="wt-horizontal-center query-image-container">
+                            <div class="wt-position-relative wt-skeleton-ui--image-square wt-mb-xs-1 wt-mb-md-2 wt-mt-xs-2">
+                                <img src="https://i.etsystatic.com/24422418/r/il/0dc3eb/4714305482/il_300x300.4714305482_rk02.jpg" class="query-image wt-position-absolute wt-position-top wt-position-left wt-b-xs wt-circle wt-width-full wt-height-full" alt="">
+                            </div>
+                        </div>
+                    <div class="query-with-image-text--border">
+                        <p class="wt-text-caption-title wt-line-height-tight wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-md-down" title="">
+                            Cadeaux de mariage
+                        </p>
+                        <p class="wt-text-title-01 wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-lg-up" title="">
+                            Cadeaux de mariage
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="shopping-window wt-display-flex-xs wt-flex-direction-column-xs wt-grid__item-xs-4 wt-grid__item-md-2 wt-pl-xl-6 wt-pr-xl-6">
+                <a href="https://www.etsy.com/fr/search?q=cadeau+personnalis%C3%A9&amp;anchor_listing_id=590910388&amp;ref=hp_bubbles_AUGUST23_FR&amp;mosv=sese&amp;moci=1141224240634&amp;mosi=1182162938669&amp;is_merch_library=true" class="wt-text-link-no-underline shopping-window-interior">
+                        <div class="wt-horizontal-center query-image-container">
+                            <div class="wt-position-relative wt-skeleton-ui--image-square wt-mb-xs-1 wt-mb-md-2 wt-mt-xs-2">
+                                <img src="https://i.etsystatic.com/13132999/r/il/891fe6/1987363945/il_300x300.1987363945_1r0v.jpg" class="query-image wt-position-absolute wt-position-top wt-position-left wt-b-xs wt-circle wt-width-full wt-height-full" alt="">
+                            </div>
+                        </div>
+                    <div class="query-with-image-text--border">
+                        <p class="wt-text-caption-title wt-line-height-tight wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-md-down" title="">
+                            Cadeaux personnalisés
+                        </p>
+                        <p class="wt-text-title-01 wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-lg-up" title="">
+                            Cadeaux personnalisés
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="shopping-window wt-display-flex-xs wt-flex-direction-column-xs wt-grid__item-xs-4 wt-grid__item-md-2 wt-pl-xl-6 wt-pr-xl-6">
+                <a href="https://www.etsy.com/fr/search?q=articles+de+bar&amp;anchor_listing_id=1469268824&amp;ref=hp_bubbles_AUGUST23_FR&amp;mosv=sese&amp;moci=1141224240634&amp;mosi=1182163023311&amp;is_merch_library=true" class="wt-text-link-no-underline shopping-window-interior">
+                        <div class="wt-horizontal-center query-image-container">
+                            <div class="wt-position-relative wt-skeleton-ui--image-square wt-mb-xs-1 wt-mb-md-2 wt-mt-xs-2">
+                                <img src="https://i.etsystatic.com/19575482/r/il/7b84c3/4960533589/il_300x300.4960533589_o7l9.jpg" class="query-image wt-position-absolute wt-position-top wt-position-left wt-b-xs wt-circle wt-width-full wt-height-full" alt="">
+                            </div>
+                        </div>
+                    <div class="query-with-image-text--border">
+                        <p class="wt-text-caption-title wt-line-height-tight wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-md-down" title="">
+                            Articles de bar
+                        </p>
+                        <p class="wt-text-title-01 wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-lg-up" title="">
+                            Articles de bar
+                        </p>
+                    </div>
+                </a>
+            </li>
+            <li class="shopping-window wt-display-flex-xs wt-flex-direction-column-xs wt-grid__item-xs-4 wt-grid__item-md-2 wt-pl-xl-6 wt-pr-xl-6">
+                <a href="https://www.etsy.com/fr/search?q=cadeau+fait+main&amp;anchor_listing_id=1435727126&amp;ref=hp_bubbles_AUGUST23_FR&amp;mosv=sese&amp;moci=1141224240634&amp;mosi=1163654336607&amp;is_discounted=true&amp;is_merch_library=true" class="wt-text-link-no-underline shopping-window-interior">
+                        <div class="wt-horizontal-center query-image-container">
+                            <div class="wt-position-relative wt-skeleton-ui--image-square wt-mb-xs-1 wt-mb-md-2 wt-mt-xs-2">
+                                <img src="https://i.etsystatic.com/41811232/r/il/920a2e/5091097377/il_300x300.5091097377_rwws.jpg" class="query-image wt-position-absolute wt-position-top wt-position-left wt-b-xs wt-circle wt-width-full wt-height-full" alt="">
+                            </div>
+                        </div>
+                    <div class="query-with-image-text--border">
+                        <p class="wt-text-caption-title wt-line-height-tight wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-md-down" title="">
+                            En promo
+                        </p>
+                        <p class="wt-text-title-01 wt-text-center-xs wt-text-truncate--multi-line wt-text-black query-with-image-text wt-mb-xs-1 display-webkit-box-lg-up" title="">
+                            En promo
+                        </p>
+                    </div>
+                </a>
+            </li>
+    </ul>
+</div>
+</div>
+</div><div class="hp-spacing-small">
+    
+        
+</div><div data-appears-component-name="hp_editors_picks_primary" data-appears-event-data="{&quot;title&quot;:&quot;S\u00e9lection sp\u00e9ciale mariage&quot;}">
+<div class="wt-grid wt-body-max-width wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3 appears-ready">
+    
+        <div class="wt-grid__item-xs-12 wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3">
+    
+        <div class="wt-grid wt-width-full" data-hp-editor-picks="">
+  
+
+                <div class="primary-editors-picks-element wt-grid__item-lg-4 wt-grid__item-md-four-and-a-half wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-flex-end wt-text-center-xs wt-text-left-md wt-align-self-center wt-pr-md-3 wt-mb-md-3 wt-pr-lg-4 wt-mb-lg-4">
+                    <p class="wt-text-caption wt-text-gray">Coups de cœur</p>
+                    <h1 class="hp-text-title-xs-02 hp-text-title-md-03 wt-mt-md-1 wt-pb-xs-3 wt-pb-md-4">Sélection spéciale mariage</h1>
+                    <a class="wt-arrow-link wt-arrow-link--forward wt-hide-xs wt-show-md" href="https://www.etsy.com/fr/featured/mariage-fr?ref=hp_editors_picks_primary">
+                        Voir ces trouvailles originales
+                    </a>
+                </div>
+
+                <div class="primary-editors-picks-element wt-flex-shrink-xs-0 wt-grid__item-xs-4 wt-grid__item-md-3 wt-pr-xs-2 wt-mb-xs-2 wt-pr-md-3 wt-mb-md-3 wt-pr-lg-4 wt-mb-lg-4">
+    
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           
+           wt-mr-xs-0
+wt-position-relative wt-height-full wt-width-full 
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1394354237" data-shop-id="39287711" data-listing-id="1394354237" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+                wt-height-full
+            " data-listing-id="1394354237" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1394354237/modele-plan-de-table-mariage-fleuri-plan?click_key=8876ff8f17640bc7f232fa186ae3e377faf287d1%3A1394354237&amp;click_sum=4359a7bd&amp;ref=hp_editors_picks_primary-1" target="etsy.1394354237" title="Modèle plan de table mariage fleuri, plan de table mariage champêtre, template à personnaliser | DUBLIN">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                    wt-height-full
+                ">
+                <div class="placeholder placeholder-landscape  wt-rounded-01 wt-height-full
+                
+             wt-height-full ">
+    <div class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder 
+                 wt-height-full " style="background-color: #C5BA74;">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        fit-to-variable-height
+        hp_editors_picks_primary-1" alt="Modèle plan de table mariage fleuri, plan de table mariage champêtre, template à personnaliser | DUBLIN" src="https://i.etsystatic.com/39287711/c/1701/1352/632/385/il/96ed15/4552212618/il_680x540.4552212618_l22h.jpg" loading="lazy">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">12,12</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Modèle plan de table mariage fleuri, plan de table mariage champêtre, template à personnaliser | DUBLIN
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="1394354237" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+</div><div class="primary-editors-picks-element wt-flex-shrink-xs-0 wt-grid__item-xs-4 wt-grid__item-md-two-and-a-quarter wt-grid__item-lg-2 wt-pr-xs-2 wt-mb-xs-2 wt-pr-md-3 wt-mb-md-3 wt-pr-lg-4 wt-mb-lg-4">
+    
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           
+           wt-mr-xs-0
+wt-position-relative wt-height-full wt-width-full 
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="681006932" data-shop-id="8638556" data-listing-id="681006932" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+                wt-height-full
+            " data-listing-id="681006932" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/681006932/siam-peigne-a-cheveux-pour-la-mariee?click_key=c9fdb59cefb0821b326e45e15702aab2f30a187f%3A681006932&amp;click_sum=30166c5d&amp;ref=hp_editors_picks_primary-2&amp;sts=1" target="etsy.681006932" title="SIAM - Peigne à cheveux pour la mariée, feuille doré bohème chic, très sobre - bijoux mariage délicats">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                    wt-height-full
+                ">
+                <div class="placeholder placeholder-landscape  wt-rounded-01 wt-height-full
+                
+             wt-height-full ">
+    <div class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder 
+                 wt-height-full " style="background-color: #635E57;">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        fit-to-variable-height
+        hp_editors_picks_primary-2" alt="SIAM - Peigne à cheveux pour la mariée, feuille doré bohème chic, très sobre - bijoux mariage délicats" src="https://i.etsystatic.com/8638556/r/il/4c7388/1829515412/il_680x540.1829515412_sdr6.jpg" loading="lazy">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">23,00</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+                <div class="wt-video wt-video--preview wt-display-flex-xs " data-listing-id="681006932">
+            <div class="wt-video__spinner wt-video__spinner--hidden" aria-hidden="true">
+                
+    <div class="wt-spinner wt-spinner--01" aria-live="assertive">
+        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
+        Chargement
+    </div>
+
+            </div>
+
+            <video tabindex="-1" role="img" muted="" preload="none" class="wt-video__element wt-video__element--hidden" aria-label="SIAM - Peigne à cheveux pour la mariée, feuille doré bohème chic, très sobre - bijoux mariage délicats" aria-hidden="true">
+                    <source src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/file_yubxoj.mp4" type="video/mp4">
+            </video>
+
+            <div class="wt-video__signal" aria-hidden="false">
+                <span class="wt-icon wt-icon--smaller-xs wt-horizontal-center wt-vertical-center wt-nudge-l-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="4 4 4 20 20 12 4 4"></polygon></svg></span>
+            </div>
+        </div>
+
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    SIAM - Peigne à cheveux pour la mariée, feuille doré bohème chic, très sobre - bijoux mariage délicats
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="681006932" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+</div><div class="primary-editors-picks-element wt-flex-shrink-xs-0 wt-grid__item-xs-4 wt-grid__item-md-two-and-a-quarter wt-grid__item-lg-3 wt-mb-xs-2 wt-mb-md-3 wt-mb-lg-4">
+    
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           
+           wt-mr-xs-0
+wt-position-relative wt-height-full wt-width-full 
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="491728542" data-shop-id="14367827" data-listing-id="491728542" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+                wt-height-full
+            " data-listing-id="491728542" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/491728542/robe-maxi-en-lin-decollete-dinspiration?click_key=e6810ed2db4beeba6b6b026ba9e12cdb1354ec60%3A491728542&amp;click_sum=c8540be2&amp;ref=hp_editors_picks_primary-3" target="etsy.491728542" title="Robe maxi en lin décolleté d&#39;inspiration victorienne, robe de mariée de style rustique, country et victorien, tenue d&#39;occasion historique">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                    wt-height-full
+                ">
+                <div class="placeholder placeholder-landscape  wt-rounded-01 wt-height-full
+                
+             wt-height-full ">
+    <div class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder 
+                 wt-height-full " style="background-color: #827F6F;">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        fit-to-variable-height
+        hp_editors_picks_primary-3" alt="Robe maxi en lin décolleté d&#39;inspiration victorienne, robe de mariée de style rustique, country et victorien, tenue d&#39;occasion historique" src="https://i.etsystatic.com/14367827/c/1000/794/0/170/il/40c594/2673129685/il_680x540.2673129685_mb9l.jpg" loading="lazy">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">285,00</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+                <div class="wt-video wt-video--preview wt-display-flex-xs " data-listing-id="491728542">
+            <div class="wt-video__spinner wt-video__spinner--hidden" aria-hidden="true">
+                
+    <div class="wt-spinner wt-spinner--01" aria-live="assertive">
+        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
+        Chargement
+    </div>
+
+            </div>
+
+            <video tabindex="-1" role="img" muted="" preload="none" class="wt-video__element wt-video__element--hidden" aria-label="Robe maxi en lin décolleté d&#39;inspiration victorienne, robe de mariée de style rustique, country et victorien, tenue d&#39;occasion historique" aria-hidden="true">
+                    <source src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/file_bphwpl.mp4" type="video/mp4">
+            </video>
+
+            <div class="wt-video__signal" aria-hidden="false">
+                <span class="wt-icon wt-icon--smaller-xs wt-horizontal-center wt-vertical-center wt-nudge-l-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="4 4 4 20 20 12 4 4"></polygon></svg></span>
+            </div>
+        </div>
+
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Robe maxi en lin décolleté d'inspiration victorienne, robe de mariée de style rustique, country et victorien, tenue d'occasion historique
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="491728542" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+</div><div class="primary-editors-picks-element wt-flex-shrink-xs-0 wt-grid__item-xs-4 wt-grid__item-md-two-and-a-quarter wt-grid__item-lg-4 wt-pr-xs-2 wt-pr-md-3 wt-pr-lg-4">
+    
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           
+           wt-mr-xs-0
+wt-position-relative wt-height-full wt-width-full 
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="796764251" data-shop-id="22921247" data-listing-id="796764251" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+                wt-height-full
+            " data-listing-id="796764251" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/796764251/cake-topper-mariage-cake-topper-mariage?click_key=70f20809b956930ab488d0e174084726bcb7e684%3A796764251&amp;click_sum=ddeaa219&amp;ref=hp_editors_picks_primary-4&amp;sts=1" target="etsy.796764251" title="cake topper mariage, cake topper mariage personnalisé, cake topper en bois, gâteau de mariage, décoration de gâteau de mariage 01">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                    wt-height-full
+                ">
+                <div class="placeholder placeholder-landscape  wt-rounded-01 wt-height-full
+                
+             wt-height-full ">
+    <div class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder 
+                 wt-height-full " style="background-color: #A09888;">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        fit-to-variable-height
+        hp_editors_picks_primary-4" alt="cake topper mariage, cake topper mariage personnalisé, cake topper en bois, gâteau de mariage, décoration de gâteau de mariage 01" src="https://i.etsystatic.com/22921247/c/1442/1146/0/110/il/40ee96/2315296449/il_680x540.2315296449_ecw3.jpg" loading="lazy">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">14,00</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    cake topper mariage, cake topper mariage personnalisé, cake topper en bois, gâteau de mariage, décoration de gâteau de mariage 01
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="796764251" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+</div><div class="primary-editors-picks-element wt-flex-shrink-xs-0 wt-grid__item-xs-4 wt-grid__item-md-two-and-a-quarter wt-grid__item-lg-3 wt-pr-xs-2 wt-pr-md-3 wt-pr-lg-4">
+    
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           
+           wt-mr-xs-0
+wt-position-relative wt-height-full wt-width-full 
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1443052525" data-shop-id="16103608" data-listing-id="1443052525" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+                wt-height-full
+            " data-listing-id="1443052525" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1443052525/wildflower-veil-floral-embroidery?click_key=daa27ef3f221338a98c09bf8f8d9589932f9f6e9%3A1443052525&amp;click_sum=204080cb&amp;ref=hp_editors_picks_primary-5" target="etsy.1443052525" title="Wildflower Veil - Floral Embroidery Wedding Veil - Veil With Flowers - Bridal veil craftsmanship - Floral veil">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                    wt-height-full
+                ">
+                <div class="placeholder placeholder-landscape  wt-rounded-01 wt-height-full
+                
+             wt-height-full ">
+    <div class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder 
+                 wt-height-full " style="background-color: #21170F;">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        fit-to-variable-height
+        hp_editors_picks_primary-5" alt="Wildflower Veil - Floral Embroidery Wedding Veil - Veil With Flowers - Bridal veil craftsmanship - Floral veil" src="https://i.etsystatic.com/16103608/c/1701/1352/196/349/il/794bd4/4787601947/il_680x540.4787601947_i3o0.jpg" loading="lazy">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">165,00</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Wildflower Veil - Floral Embroidery Wedding Veil - Veil With Flowers - Bridal veil craftsmanship - Floral veil
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="1443052525" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+</div><div class="primary-editors-picks-element wt-flex-shrink-xs-0 wt-grid__item-xs-4 wt-grid__item-md-3 wt-grid__item-lg-2 wt-pr-md-3 wt-pr-lg-4">
+    
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           
+           wt-mr-xs-0
+wt-position-relative wt-height-full wt-width-full 
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1455308952" data-shop-id="18239694" data-listing-id="1455308952" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+                wt-height-full
+            " data-listing-id="1455308952" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1455308952/faire-part-de-mariage-graminees-et?click_key=6a9719cde9b0ac52fdc1058ee0047332d4f3a03b%3A1455308952&amp;click_sum=1b729ca8&amp;ref=hp_editors_picks_primary-6&amp;sts=1" target="etsy.1455308952" title="faire part de mariage graminées et couleur pêche">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                    wt-height-full
+                ">
+                <div class="placeholder placeholder-landscape  wt-rounded-01 wt-height-full
+                
+             wt-height-full ">
+    <div class="placeholder-content placeholder placeholder-landscape vertically-centered-placeholder 
+                 wt-height-full " style="background-color: #9B6541;">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        fit-to-variable-height
+        hp_editors_picks_primary-6" alt="faire part de mariage graminées et couleur pêche" src="https://i.etsystatic.com/18239694/r/il/899468/4681276342/il_680x540.4681276342_o1oi.jpg" loading="lazy">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">24,00</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    faire part de mariage graminées et couleur pêche
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="1455308952" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+</div>
+
+                <div class="primary-editors-picks-element wt-grid__item-xl-3 wt-grid__item-lg-3 wt-grid__item-md-four-and-a-half primary-editors-picks-subtitle-container wt-position-relative wt-display-flex-lg wt-align-self-center">
+                    <p class="wt-text-body-01 wt-line-height-tight wt-text-truncate--multi-line primary-editors-picks-subtitle-large">De superbes articles pour bien commencer ce nouveau chapitre</p>
+                    <p class="wt-text-body-01 wt-line-height-tight wt-text-truncate--multi-line primary-editors-picks-subtitle-small">De superbes articles pour bien commencer ce nouveau chapitre</p>
+                </div>
+
+                <a class="wt-arrow-link wt-arrow-link--forward wt-show-xs wt-hide-md wt-horizontal-center wt-mt-xs-3" href="https://www.etsy.com/fr/featured/mariage-fr?ref=hp_editors_picks_primary">
+                    En voir d'autres
+                </a>
+
+    </div>
+</div>
+</div>
+</div><div class="hp-spacing-default">
+    
+        
+</div><div data-appears-component-name="Homepage_ApiSpecs_EditorsPicks" data-appears-event-data="{&quot;title&quot;:&quot;Voici les gagnants des Etsy Design Awards 2023 !&quot;}">
+<div class="wt-grid wt-body-max-width wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3 appears-ready">
+    
+        <div class="wt-grid__item-xs-12 wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3">
+    
+        <div class="secondary-grid-container wt-body-max-width wt-grid wt-b-xs wt-rounded-01" data-hp-editor-picks="">
+    <div class="wt-grid wt-grid__item-xs-12 wt-grid__item-lg-8 wt-grid--block wt-m-xs-0 wt-p-xs-3 wt-p-md-4 wt-pr-md-2">
+        <div class="wt-grid__item-xs-12 wt-grid__item-md-6 wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-center wt-text-center-xs wt-text-left-md wt-pb-xs-2 wt-pb-md-3">
+            <p class="wt-text-caption wt-mb-xs-1">Coups de cœur</p>
+<h2 class="wt-text-title-03 wt-mb-xs-0 wt-mb-md-3">Voici les gagnants des Etsy Design Awards 2023 !</h2>
+<a href="https://www.etsy.com/fr/featured/etsydesignawards-fr?ref=hp_merch_co" class="wt-hide-sm wt-show-md wt-arrow-link wt-arrow-link--forward">
+    Voir plus
+    <span class="wt-screen-reader-only">Coups de cœur</span>
+</a>
+        </div>
+        <div class="js-merch-stash-check-listing v2-listing-card 
+           wt-position-relative
+                wt-grid__item-xs-4 wt-flex-shrink-xs-0
+                wt-grid__item-xl-3
+                wt-grid__item-lg-3
+                wt-grid__item-md-3
+           
+
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1449670800" data-shop-id="8611173" data-listing-id="1449670800" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+" data-listing-id="1449670800" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1449670800/animal-storage-box-pangolin-tortue?click_key=c97f44e8b0514ed56f7d75278a50ee5eea8575da%3A1449670800&amp;click_sum=6bc78761&amp;ref=hp_merch_co-1" target="etsy.1449670800" title="Animal Storage Box pangolin tortue hérisson">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                ">
+                <div class="placeholder placeholder-square  wt-rounded-01
+                
+            ">
+    <div class="placeholder-content placeholder placeholder-square vertically-centered-placeholder 
+                ">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        
+        hp_merch_co-1" alt="Animal Storage Box pangolin tortue hérisson" src="https://i.etsystatic.com/8611173/r/il/0a6195/4876721807/il_300x300.4876721807_o1gr.jpg">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">87,90</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Animal Storage Box pangolin tortue hérisson
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position--grid" data-ui="favorite-listing-button" data-listing-id="1449670800" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div><div class="js-merch-stash-check-listing v2-listing-card 
+           wt-position-relative
+                wt-grid__item-xs-4 wt-flex-shrink-xs-0
+                wt-grid__item-xl-3
+                wt-grid__item-lg-3
+                wt-grid__item-md-3
+           
+
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1091816834" data-shop-id="8735246" data-listing-id="1091816834" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+" data-listing-id="1091816834" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1091816834/beret-en-melange-de-laine-teint?click_key=a06188fb3edc408dc75192e02d9407f5b6487745%3A1091816834&amp;click_sum=f7ae1616&amp;ref=hp_merch_co-2" target="etsy.1091816834" title="Béret en mélange de laine teint botanique sur commande">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                ">
+                <div class="placeholder placeholder-square  wt-rounded-01
+                
+            ">
+    <div class="placeholder-content placeholder placeholder-square vertically-centered-placeholder 
+                ">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        
+        hp_merch_co-2" alt="Béret en mélange de laine teint botanique sur commande" src="https://i.etsystatic.com/8735246/c/2000/2000/0/699/il/d5108a/5020774334/il_300x300.5020774334_oq8c.jpg">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">62,89</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Béret en mélange de laine teint botanique sur commande
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position--grid" data-ui="favorite-listing-button" data-listing-id="1091816834" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div><div class="js-merch-stash-check-listing v2-listing-card 
+           wt-position-relative
+                wt-grid__item-xs-4 wt-flex-shrink-xs-0
+                wt-grid__item-xl-3
+                wt-grid__item-lg-3
+                wt-grid__item-md-3
+           
+
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="559096162" data-shop-id="13506132" data-listing-id="559096162" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+" data-listing-id="559096162" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/559096162/pochette-arc-en-ciel-en-toile-et-cuir?click_key=be5206ff2c2113490352b8712b1316cf36cbc25b%3A559096162&amp;click_sum=2019a2b8&amp;ref=hp_merch_co-3" target="etsy.559096162" title="Pochette arc-en-ciel en toile et cuir, sac cosmétique, trousse de maquillage, cuir végétalien, cuir végétalien, cadeau personnalisé, brodé, pour maman, Boho">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                ">
+                <div class="placeholder placeholder-square  wt-rounded-01
+                
+            ">
+    <div class="placeholder-content placeholder placeholder-square vertically-centered-placeholder 
+                ">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        
+        hp_merch_co-3" alt="Pochette arc-en-ciel en toile et cuir, sac cosmétique, trousse de maquillage, cuir végétalien, cuir végétalien, cadeau personnalisé, brodé, pour maman, Boho" src="https://i.etsystatic.com/13506132/c/2400/2400/39/0/il/890699/3204640740/il_300x300.3204640740_pi22.jpg">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">80,60</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Pochette arc-en-ciel en toile et cuir, sac cosmétique, trousse de maquillage, cuir végétalien, cuir végétalien, cadeau personnalisé, brodé, pour maman, Boho
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position--grid" data-ui="favorite-listing-button" data-listing-id="559096162" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div><div class="js-merch-stash-check-listing v2-listing-card 
+           wt-position-relative
+                wt-grid__item-xs-4 wt-flex-shrink-xs-0
+                wt-grid__item-xl-3
+                wt-grid__item-lg-3
+                wt-grid__item-md-3
+           
+
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1252332163" data-shop-id="22011067" data-listing-id="1252332163" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+" data-listing-id="1252332163" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1252332163/etui-a-lunettes-fait-main-en-cuir-et?click_key=f8a7a415b52007828893736bd99d1c0e53bd878c%3A1252332163&amp;click_sum=1582a008&amp;ref=hp_merch_co-4" target="etsy.1252332163" title="étui à lunettes fait main en cuir et tressage">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                ">
+                <div class="placeholder placeholder-square  wt-rounded-01
+                
+            ">
+    <div class="placeholder-content placeholder placeholder-square vertically-centered-placeholder 
+                ">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        
+        hp_merch_co-4" alt="étui à lunettes fait main en cuir et tressage" src="https://i.etsystatic.com/22011067/c/1907/1907/540/61/il/a1803a/5022094032/il_300x300.5022094032_qsoi.jpg">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">110,00</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    étui à lunettes fait main en cuir et tressage
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position--grid" data-ui="favorite-listing-button" data-listing-id="1252332163" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div><div class="js-merch-stash-check-listing v2-listing-card 
+           wt-position-relative
+                wt-grid__item-xs-4 wt-flex-shrink-xs-0
+                wt-grid__item-xl-3
+                wt-grid__item-lg-3
+                wt-grid__item-md-3
+           
+
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1490665767" data-shop-id="23026794" data-listing-id="1490665767" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+" data-listing-id="1490665767" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1490665767/chapeau-bob-reversible?click_key=93615c28fd5f6462735afecd9d4c037847301fff%3A1490665767&amp;click_sum=2b279db4&amp;ref=hp_merch_co-5" target="etsy.1490665767" title="Chapeau Bob Réversible">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                ">
+                <div class="placeholder placeholder-square  wt-rounded-01
+                
+            ">
+    <div class="placeholder-content placeholder placeholder-square vertically-centered-placeholder 
+                ">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        
+        hp_merch_co-5" alt="Chapeau Bob Réversible" src="https://i.etsystatic.com/23026794/r/il/735b8f/4992673027/il_300x300.4992673027_45h9.jpg">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">57,17</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+        
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Chapeau Bob Réversible
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position--grid" data-ui="favorite-listing-button" data-listing-id="1490665767" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div><div class="js-merch-stash-check-listing v2-listing-card 
+           wt-position-relative
+                wt-grid__item-xs-4 wt-flex-shrink-xs-0
+                wt-grid__item-xl-3
+                wt-grid__item-lg-3
+                wt-grid__item-md-3
+           
+
+            
+            
+            listing-card-experimental-style" data-palette-listing-id="1507917873" data-shop-id="13506132" data-listing-id="1507917873" data-page-type="homepage_merch_collection" data-behat-listing-card="" data-listing-card-v2="">
+    <a class="listing-link wt-display-inline-block
+" data-listing-id="1507917873" data-palette-listing-image="" href="https://www.etsy.com/fr/listing/1507917873/porte-cartes-en-cuir-brode-cuir?click_key=6c73acdc77e2972ece2440d63cfdd7dfbe3498b8%3A1507917873&amp;click_sum=7e9d907a&amp;ref=hp_merch_co-6" target="etsy.1507917873" title="Porte-cartes en cuir brodé, cuir végétalien, cadeau durable personnalisé.">
+            <div class="v2-listing-card__img wt-position-relative
+                listing-card-image-no-shadow
+                ">
+                <div class="placeholder placeholder-square  wt-rounded-01
+                
+            ">
+    <div class="placeholder-content placeholder placeholder-square vertically-centered-placeholder 
+                ">
+                <div class="height-placeholder">
+                        <img data-listing-card-listing-image="" class="wt-width-full wt-height-full wt-display-block wt-position-absolute 
+         
+        
+        hp_merch_co-6" alt="Porte-cartes en cuir brodé, cuir végétalien, cadeau durable personnalisé." src="https://i.etsystatic.com/13506132/c/1386/1386/0/440/il/2af631/5067768503/il_300x300.5067768503_im7i.jpg">
+
+
+        <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">74,32</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+                </div>
+    </div>
+                <div class="wt-video wt-video--preview wt-display-flex-xs " data-listing-id="1507917873">
+            <div class="wt-video__spinner">
+                
+    <div class="wt-spinner wt-spinner--01" aria-live="assertive">
+        <span class="wt-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
+        Chargement
+    </div>
+
+            </div>
+
+            <video tabindex="-1" role="img" muted="" preload="none" class="wt-video__element wt-video__element--hidden" aria-label="Porte-cartes en cuir brodé, cuir végétalien, cadeau durable personnalisé.">
+                    <source src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/20230612_120815_wiqvj6.mp4" type="video/mp4">
+            </video>
+
+            <div class="wt-video__signal" aria-hidden="false">
+                <span class="wt-icon wt-icon--smaller-xs wt-horizontal-center wt-vertical-center wt-nudge-l-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="4 4 4 20 20 12 4 4"></polygon></svg></span>
+            </div>
+        </div>
+
+</div>
+                
+            </div>
+
+        
+        <div class="v2-listing-card__info
+    
+    ">
+            <h3 class="wt-text-caption v2-listing-card__title
+                wt-text-truncate
+                
+                wt-screen-reader-only ">
+                    Porte-cartes en cuir brodé, cuir végétalien, cadeau durable personnalisé.
+            </h3>
+                        
+                
+                    
+                
+            
+            
+            
+            
+            
+            
+
+    
+    
+
+</div>
+        
+    </a>
+        <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute ">
+            <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position--grid" data-ui="favorite-listing-button" data-listing-id="1507917873" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage_merch_collection" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+        </div>
+    <div class="wt-position-absolute wt-z-index-2 wt-mt-xs-1 wt-ml-xs-1 hide-listing-region">
+        
+    </div>
+</div>
+    </div>
+    <div class="wt-grid__item-xs-12 wt-grid__item-lg-4">
+        <a href="https://www.etsy.com/fr/listing/1462136337/jardiniere-en-ceramique-faite-a-la-main?ref=hp_merch_co-0" aria-label="Jardinière en céramique faite à la main avec une chaîne et un plat | pot de fleurs en céramique | jardinière succulente | Pot de fleurs en poterie | Jardinière en terre cuite" class="secondary-grid-featured-listing wt-hide-xs wt-show-lg wt-width-full wt-height-full wt-position-relative
+" target="_blank" style="background-image: url(&#39;https://i.etsystatic.com/24849964/r/il/4625f6/5084144865/il_570xN.5084144865_al59.jpg&#39;);" data-listing-id="1462136337" tabindex="0">
+            <div class="listing-card-video-spinner wt-align-items-center wt-position-absolute wt-position-top wt-position-bottom wt-position-left wt-position-right wt-display-none" aria-hidden="true">
+    <div class="wt-spinner wt-spinner--01">
+        <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle fill="transparent" cx="12" cy="12" r="10"></circle></svg></span>
+        Loading
+    </div>
+</div>
+
+<div class="listing-card-video-container wt-position-absolute wt-position-top wt-position-bottom wt-position-left wt-position-right wt-display-none" aria-hidden="true">
+    <video muted="" preload="none" class="listing-video-responsive-container wt-height-full wt-width-full" aria-label="Product video" data-listing-id="1462136337">
+            <source src="https://v.etsystatic.com/video/upload/ac_none,du_15,q_auto:good/file_maqrpt.mp4" type="video/mp4">
+    </video>
+</div>
+
+<div class="listing-card-video-signal wt-position-absolute wt-circle wt-bg-white" aria-hidden="false">
+    <span class="etsy-icon wt-icon--smaller-xs wt-horizontal-center wt-vertical-center wt-nudge-l-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="4 4 4 20 20 12 4 4"></polygon></svg></span>
+</div>
+            <p class="listing-card-price-badge wt-animated wt-animated--appear-02 wt-mb-xs-2 wt-pl-xs-2 wt-pr-xs-2 wt-max-width-full wt-text-black wt-text-truncate wt-position-absolute wt-position-bottom wt-z-index-1">
+<span class="wt-badge wt-badge--promoted wt-badge--border wt-width-full wt-text-truncate">
+                            <span><span class="currency-value">149,75</span> <span class="currency-symbol">€</span></span>
+
+</span>
+        </p>
+            
+                <div data-favorite-button-wrapper="" class="v2-listing-card__actions wt-z-index-1 wt-position-absolute">
+                    <button class="btn--focus  wt-position-absolute wt-btn wt-btn--light wt-btn--small wt-z-index-2 wt-btn--filled wt-btn--icon neu-default-favorite wt-position-right wt-position-top fav-opacity-hidden neu-hover-on-card neu-default-button-position" data-ui="favorite-listing-button" data-listing-id="1462136337" data-accessible-btn-fave="" data-favorite-label="Ajouter aux favoris" data-favorited-label="Supprimer des favoris">
+            <div class="favorite-listing-button-icon-container should-animate " data-source="homepage" data-btn-fave="" data-neu-fave="" data-favorite-icon-container="">
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs
+                    
+                    
+                        
+                        
+                            wt-display-block
+                        
+                    " data-not-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12,21C10.349,21,2,14.688,2,9,2,5.579,4.364,3,7.5,3A6.912,6.912,0,0,1,12,5.051,6.953,6.953,0,0,1,16.5,3C19.636,3,22,5.579,22,9,22,14.688,13.651,21,12,21ZM7.5,5C5.472,5,4,6.683,4,9c0,4.108,6.432,9.325,8,10,1.564-.657,8-5.832,8-10,0-2.317-1.472-4-3.5-4-1.979,0-3.7,2.105-3.721,2.127L11.991,8.1,11.216,7.12C11.186,7.083,9.5,5,7.5,5Z"></path></svg></span>
+                <span class="etsy-icon wt-nudge-t-2 wt-icon--smaller-xs wt-text-brick
+                    
+                    
+                        
+                        
+                            wt-display-none
+                        
+                    " data-favorited-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16.5,3A6.953,6.953,0,0,0,12,5.051,6.912,6.912,0,0,0,7.5,3C4.364,3,2,5.579,2,9c0,5.688,8.349,12,10,12S22,14.688,22,9C22,5.579,19.636,3,16.5,3Z"></path></svg></span>
+            </div>
+            <!--icon font and display:none; elements -->
+            <span aria-hidden="true" class="icon"></span>
+            <span class="wt-screen-reader-only" data-a11y-label="">
+                
+                Ajouter aux favoris
+            </span>
+            </button>
+                </div>
+        </a>
+    </div>
+    <div class="wt-grid__item-xs-12 wt-text-center-xs">
+        <a href="https://www.etsy.com/" class="wt-show-xs wt-hide-md wt-arrow-link wt-arrow-link--forward wt-mb-xs-4"></a>
+    </div>
+</div>
+</div>
+</div>
+</div><div class="hp-spacing-default" data-spacing-for-spec-name="Homepage_Vesta_ApiSpec_Finds">
+    
+        
+</div><div data-appears-component-name="Homepage_Vesta_ApiSpec_GiftsBySearch">
+<div class="wt-grid wt-body-max-width wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3 appears-ready">
+    
+        <div class="wt-grid__item-xs-12 wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3">
+    
+        <div class="wt-body-max-width wt-list-unstyled">
+    <div class="wt-pb-xs-3 wt-text-center-xs wt-text-left-md">
+    <div class="wt-display-inline-block">
+            <h2 class="hp-text-title-xs-02 hp-text-title-md-03">
+                Voir les catégories de cadeaux les plus populaires
+            </h2>
+    </div>
+        
+    
+</div>
+
+    <div class="wt-block-grid-xs-2 wt-block-grid-md-3 wt-block-grid-lg-5">
+        <div class="wt-block-grid__item ">
+    
+        <div class="curated-content-card-container wt-justify-content-center wt-height-full ">
+    <div class="wt-grid__item-xs-12 wt-height-full">
+<div class="wt-card wt-card--contained wt-width-full wt-height-full">
+    <div class="wt-height-full wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-space-between wt-card__inner">
+                    <img class="wt-flex-grow-xs-1 " alt="Cadeaux anniversaire de mariage" src="https://i.etsystatic.com/38731760/r/il/82d232/4997575945/il_340x270.4997575945_mgdq.jpg">
+            <a href="https://www.etsy.com/fr/search?q=cadeaux+anniversaire+de+mariage&amp;ref=hp_gbs&amp;anchor_listing_id=1521650956" class="wt-card__link wt-display-flex-xs wt-flex-xs-1 wt-justify-content-center wt-align-items-center ">
+                <div class="wt-p-xs-2">
+                    <p class="hp-text-title-xs-01 hp-text-title-md-02 wt-text-truncate--multi-line wt-text-center-xs">
+                        Cadeaux anniversaire de mariage
+                    </p>
+                </div>
+            </a>
+
+</div>
+</div>
+    </div>
+</div>
+</div><div class="wt-block-grid__item ">
+    
+        <div class="curated-content-card-container wt-justify-content-center wt-height-full ">
+    <div class="wt-grid__item-xs-12 wt-height-full">
+<div class="wt-card wt-card--contained wt-width-full wt-height-full">
+    <div class="wt-height-full wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-space-between wt-card__inner">
+                    <img class="wt-flex-grow-xs-1 " alt="Cadeaux pour lui" src="https://i.etsystatic.com/11915413/r/il/09127a/3813030617/il_340x270.3813030617_3cr3.jpg">
+            <a href="https://www.etsy.com/fr/search?q=cadeau+pour+homme&amp;ref=hp_gbs&amp;anchor_listing_id=749151882" class="wt-card__link wt-display-flex-xs wt-flex-xs-1 wt-justify-content-center wt-align-items-center ">
+                <div class="wt-p-xs-2">
+                    <p class="hp-text-title-xs-01 hp-text-title-md-02 wt-text-truncate--multi-line wt-text-center-xs">
+                        Cadeaux pour lui
+                    </p>
+                </div>
+            </a>
+
+</div>
+</div>
+    </div>
+</div>
+</div><div class="wt-block-grid__item ">
+    
+        <div class="curated-content-card-container wt-justify-content-center wt-height-full ">
+    <div class="wt-grid__item-xs-12 wt-height-full">
+<div class="wt-card wt-card--contained wt-width-full wt-height-full">
+    <div class="wt-height-full wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-space-between wt-card__inner">
+                    <img class="wt-flex-grow-xs-1 " alt="Cadeaux pour elle" src="https://i.etsystatic.com/18858443/r/il/0699f2/1676044370/il_340x270.1676044370_53d7.jpg">
+            <a href="https://www.etsy.com/fr/search?q=cadeau+pour+femme&amp;ref=hp_gbs&amp;anchor_listing_id=643022970" class="wt-card__link wt-display-flex-xs wt-flex-xs-1 wt-justify-content-center wt-align-items-center ">
+                <div class="wt-p-xs-2">
+                    <p class="hp-text-title-xs-01 hp-text-title-md-02 wt-text-truncate--multi-line wt-text-center-xs">
+                        Cadeaux pour elle
+                    </p>
+                </div>
+            </a>
+
+</div>
+</div>
+    </div>
+</div>
+</div><div class="wt-block-grid__item ">
+    
+        <div class="curated-content-card-container wt-justify-content-center wt-height-full ">
+    <div class="wt-grid__item-xs-12 wt-height-full">
+<div class="wt-card wt-card--contained wt-width-full wt-height-full">
+    <div class="wt-height-full wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-space-between wt-card__inner">
+                    <img class="wt-flex-grow-xs-1 " alt="Idées de cadeaux personnalisés" src="https://i.etsystatic.com/32862209/r/il/d41052/4614533973/il_340x270.4614533973_8qh5.jpg">
+            <a href="https://www.etsy.com/fr/search?q=cadeau+personnalis%C3%A9&amp;ref=hp_gbs&amp;anchor_listing_id=1389769068" class="wt-card__link wt-display-flex-xs wt-flex-xs-1 wt-justify-content-center wt-align-items-center ">
+                <div class="wt-p-xs-2">
+                    <p class="hp-text-title-xs-01 hp-text-title-md-02 wt-text-truncate--multi-line wt-text-center-xs">
+                        Idées de cadeaux personnalisés
+                    </p>
+                </div>
+            </a>
+
+</div>
+</div>
+    </div>
+</div>
+</div><div class="wt-block-grid__item ">
+    
+        <div class="curated-content-card-container wt-justify-content-center wt-height-full ">
+    <div class="wt-grid__item-xs-12 wt-height-full">
+<div class="wt-card wt-card--contained wt-width-full wt-height-full">
+    <div class="wt-height-full wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-space-between wt-card__inner">
+                    <img class="wt-flex-grow-xs-1 " alt="Cadeaux de mariage" src="https://i.etsystatic.com/23059327/r/il/7bafb4/3891244748/il_340x270.3891244748_mxn2.jpg">
+            <a href="https://www.etsy.com/fr/search?q=cadeau+de+mariage&amp;ref=hp_gbs&amp;anchor_listing_id=1237757031" class="wt-card__link wt-display-flex-xs wt-flex-xs-1 wt-justify-content-center wt-align-items-center ">
+                <div class="wt-p-xs-2">
+                    <p class="hp-text-title-xs-01 hp-text-title-md-02 wt-text-truncate--multi-line wt-text-center-xs">
+                        Cadeaux de mariage
+                    </p>
+                </div>
+            </a>
+
+</div>
+</div>
+    </div>
+</div>
+</div><div class="wt-block-grid__item wt-hide-lg">
+    
+        <div class="curated-content-card-container wt-justify-content-center wt-height-full ">
+    <div class="wt-grid__item-xs-12 wt-height-full">
+<div class="wt-card wt-card--contained wt-width-full wt-height-full">
+    <div class="wt-height-full wt-display-flex-xs wt-flex-direction-column-xs wt-justify-content-space-between wt-card__inner">
+                    <img class="wt-flex-grow-xs-1 " alt="Cadeaux pour crémaillère" src="https://i.etsystatic.com/7784604/r/il/15bda4/3547840824/il_340x270.3547840824_5ynx.jpg">
+            <a href="https://www.etsy.com/fr/search?q=cadeau+pour+cr%C3%A9maill%C3%A8re&amp;ref=hp_gbs&amp;anchor_listing_id=1131538562" class="wt-card__link wt-display-flex-xs wt-flex-xs-1 wt-justify-content-center wt-align-items-center ">
+                <div class="wt-p-xs-2">
+                    <p class="hp-text-title-xs-01 hp-text-title-md-02 wt-text-truncate--multi-line wt-text-center-xs">
+                        Cadeaux pour crémaillère
+                    </p>
+                </div>
+            </a>
+
+</div>
+</div>
+    </div>
+</div>
+</div>
+    </div>
+</div>
+</div>
+</div>
+</div><div class="hp-spacing-default">
+    
+        
+</div><div data-appears-component-name="Homepage_Vesta_ApiSpec_Blog">
+<div class="wt-grid wt-body-max-width wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3 appears-ready">
+    
+        <div class="wt-grid__item-xs-12 wt-pr-xs-1 wt-pl-xs-1 wt-pr-md-2 wt-pl-md-2 wt-pr-lg-3 wt-pl-lg-3">
+    
+        <div data-blog-redesign="" class="">
+    <div class="wt-pb-xs-3 wt-text-center-xs wt-text-left-md big-arrow-md">
+    <div class="wt-display-inline-block">
+            <a href="https://www.etsy.com/blog?ref=hp_blog-sm" class="wt-arrow-link wt-arrow-link--forward hp-arrow-link wt-display-block">
+                <h2 class="hp-text-title-xs-02 hp-text-title-md-03 wt-display-inline-block">
+                    Récemment publié sur le blog
+                </h2>
+            </a>
+    </div>
+        
+    
+</div>
+
+    <ul class="wt-block-grid-xs-1 wt-block-grid-md-3 wt-p-xs-0">
+            <li class="wt-list-unstyled wt-block-grid__item" data-blog-card-url="https://www.etsy.com/blog/etsy-design-awards-2023-gagnante-francaise">
+                <div class="wt-card wt-card--contained wt-height-full wt-width-full">
+                    <div class="wt-card__inner wt-height-full">
+                        <div class="wt-grid hp-blog-img">
+                            <div class="wt-grid__item-xs-6 wt-grid__item-md-12 wt-p-xs-0">
+                                <div class="wt-skeleton-ui--image-landscape wt-position-relative wt-height-full">
+                                    <img class="wt-animated wt-animated--is-hidden wt-position-absolute wt-position-top loaded wt-animated--appear-01" data-blog-img-src="https://i.etsystatic.com/inv/bed8d8/5109910644/inv_620x495.5109910644_c2y4v3dm.jpg?version=0" alt="" loading="lazy" src="https://i.etsystatic.com/inv/bed8d8/5109910644/inv_620x495.5109910644_c2y4v3dm.jpg?version=0" data-ll-status="loaded">
+                                </div>
+                            </div>
+                            <a href="https://www.etsy.com/blog/etsy-design-awards-2023-gagnante-francaise?ref=hp_blog-0" data-appears-blog-category="click_blog_Boutiques à la une" data-appears-blog-url="https://www.etsy.com/blog/etsy-design-awards-2023-gagnante-francaise" class="wt-card__link wt-grid__item-xs-6 wt-grid__item-md-12 wt-display-flex-xs">
+                                <div class="wt-pl-xs-3 wt-pr-xs-3 wt-pb-xs-1 wt-pb-md-3 wt-align-self-center">
+                                    <p class="wt-text-caption wt-pt-xs-3">Boutiques à la une</p>
+                                    <p class="wt-text-title-02 wt-pt-xs-2 wt-pb-xs-2 wt-hide-xs wt-show-md">Etsy Design Awards 2023 : Faites connaissance avec la créatrice du design gagnant en France</p>
+                                    <p class="wt-text-title-01 wt-pt-xs-2 wt-pb-xs-2 wt-show-xs wt-hide-md">Etsy Design Awards 2023 : Faites connaissance avec la créatrice du design gagnant en France</p>
+                                    <p class="wt-text-truncate--multi-line">
+                                        <span class="wt-text-caption wt-hide-xs wt-show-md">Découvrez comment Manon Ritaly enchante le quotidien à l’aide du design d’objets et profitez de ses conseils de créatrice expérimentée.</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wt-list-unstyled wt-block-grid__item" data-blog-card-url="https://www.etsy.com/blog/etsy-design-awards-winners-2023">
+                <div class="wt-card wt-card--contained wt-height-full wt-width-full">
+                    <div class="wt-card__inner wt-height-full">
+                        <div class="wt-grid hp-blog-img">
+                            <div class="wt-grid__item-xs-6 wt-grid__item-md-12 wt-p-xs-0">
+                                <div class="wt-skeleton-ui--image-landscape wt-position-relative wt-height-full">
+                                    <img class="wt-animated wt-animated--is-hidden wt-position-absolute wt-position-top loaded wt-animated--appear-01" data-blog-img-src="https://i.etsystatic.com/inv/abedca/5125699204/inv_425x340.5125699204_sdn9jfna.jpg?version=0" alt="" loading="lazy" src="https://i.etsystatic.com/inv/abedca/5125699204/inv_425x340.5125699204_sdn9jfna.jpg?version=0" data-ll-status="loaded">
+                                </div>
+                            </div>
+                            <a href="https://www.etsy.com/blog/etsy-design-awards-winners-2023?ref=hp_blog-1" data-appears-blog-category="click_blog_Guides shopping" data-appears-blog-url="https://www.etsy.com/blog/etsy-design-awards-winners-2023" class="wt-card__link wt-grid__item-xs-6 wt-grid__item-md-12 wt-display-flex-xs">
+                                <div class="wt-pl-xs-3 wt-pr-xs-3 wt-pb-xs-1 wt-pb-md-3 wt-align-self-center">
+                                    <p class="wt-text-caption wt-pt-xs-3">Guides shopping</p>
+                                    <p class="wt-text-title-02 wt-pt-xs-2 wt-pb-xs-2 wt-hide-xs wt-show-md">C'est officiel&nbsp;!  Voici les gagnants des Etsy Design Awards&nbsp;2023</p>
+                                    <p class="wt-text-title-01 wt-pt-xs-2 wt-pb-xs-2 wt-show-xs wt-hide-md">C'est officiel&nbsp;!  Voici les gagnants des Etsy Design Awards&nbsp;2023</p>
+                                    <p class="wt-text-truncate--multi-line">
+                                        <span class="wt-text-caption wt-hide-xs wt-show-md">Découvrez (et achetez) ces 18&nbsp;pièces remarquables ici.</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="wt-list-unstyled wt-block-grid__item" data-blog-card-url="https://www.etsy.com/blog/cadeaux-danniversaire-pour-chaque-signe-du-zodiaque">
+                <div class="wt-card wt-card--contained wt-height-full wt-width-full">
+                    <div class="wt-card__inner wt-height-full">
+                        <div class="wt-grid hp-blog-img">
+                            <div class="wt-grid__item-xs-6 wt-grid__item-md-12 wt-p-xs-0">
+                                <div class="wt-skeleton-ui--image-landscape wt-position-relative wt-height-full">
+                                    <img class="wt-animated wt-animated--is-hidden wt-position-absolute wt-position-top loaded wt-animated--appear-01" data-blog-img-src="https://i.etsystatic.com/inv/af8cfc/5137267535/inv_425x340.5137267535_3e6xlli6.jpg?version=0" alt="" loading="lazy" src="https://i.etsystatic.com/inv/af8cfc/5137267535/inv_425x340.5137267535_3e6xlli6.jpg?version=0" data-ll-status="loaded">
+                                </div>
+                            </div>
+                            <a href="https://www.etsy.com/blog/cadeaux-danniversaire-pour-chaque-signe-du-zodiaque?ref=hp_blog-2" data-appears-blog-category="click_blog_Idées cadeaux" data-appears-blog-url="https://www.etsy.com/blog/cadeaux-danniversaire-pour-chaque-signe-du-zodiaque" class="wt-card__link wt-grid__item-xs-6 wt-grid__item-md-12 wt-display-flex-xs">
+                                <div class="wt-pl-xs-3 wt-pr-xs-3 wt-pb-xs-1 wt-pb-md-3 wt-align-self-center">
+                                    <p class="wt-text-caption wt-pt-xs-3">Idées cadeaux</p>
+                                    <p class="wt-text-title-02 wt-pt-xs-2 wt-pb-xs-2 wt-hide-xs wt-show-md">Cadeaux d'anniversaire pour chaque signe du zodiaque</p>
+                                    <p class="wt-text-title-01 wt-pt-xs-2 wt-pb-xs-2 wt-show-xs wt-hide-md">Cadeaux d'anniversaire pour chaque signe du zodiaque</p>
+                                    <p class="wt-text-truncate--multi-line">
+                                        <span class="wt-text-caption wt-hide-xs wt-show-md">Découvrez des idées de cadeaux d'anniversaire pour chaque personnalité dans la galaxie. Cerise sur le gâteau (d'anniversaire !), ils sont tous nés dans une petite boutique.</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+    </ul>
+</div>
+</div>
+</div>
+</div><div class="hp-spacing-small" data-spacing-for-spec-name="Homepage_Vesta_ApiSpec_Blog">
+    
+        
+</div><div data-appears-component-name="Homepage_Vesta_ApiSpec_WhatIsEtsy">
+<div class="wt-grid wt-body-max-width appears-ready">
+    <div class="wt-grid__item-xs-12">
+        <div class="wt-bg-beeswax-tint vesta-hp-full-width-banner wt-position-relative wt-pb-xs-6 wt-overflow-hidden" data-selector="what-is-etsy-container">
+            <span class="wt-edge wt-fill-white wt-edge--smaller wt-edge--ratio-none" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 48" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M1400 0l-55 12-23 10-23 4-6-1-9 1-5 2-24 8h-11l-18-5-11-1-10-1h-7l-8 3-8 1-14-4v1l-3 1-9-5-3-1-17 2-10-1-9-1-8 1-7 1-2 1h-13l-2-1-13-2h-20l-11 2-14 3h-18l-10 1-3-1-2-1-4-1h-4l-16 1h-2l-7-1h-6l-8 1-6-2-5-1-2 1-20-1-10 2h-6l-11-1-9-1h-4l-3 1-19 1h-19l-3-1-11 1h-2l-7 3h-23l-3 1h-19l-16-1-17 1h-8l-2-1-20-2-4 1-4-1h-2l-12 1-2 1h-13l-9 1h-4l-6-1-10 1-9-1h-15l-9 2-12-2-12-2-3 2-5 2-11-3-6 1h-6l-28 1-5 2h-33l-3 1-4 2h-17l-5 1-4-1-7-1h-5l-4 1-13 3-2-2-2-1h-15l-22-1h-2l-11 1h-5l-2-1h-19l-9 1-6-1h-2l-9 2-15 2h-4l-12 1h-25l-12 1-7 1h-4l-4 1h-4l-4 1h-20l-3-1h-7l-1-1v-4l-1 1h-2l-9 1-2 2-6 2-7 1-5 2h-2l-3-2-8-1h-4l-11 3h-1l-3-2-11-3-20-6-9-3h-3l-9 2h-5l-11-4-13-3-11-15-21-4L0 0h1400z"></path>
+</svg></span><span class="wt-edge wt-fill-white wt-edge--smaller wt-edge--ratio-slice" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 48" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <path d="M1400 0l-55 12-23 10-23 4-6-1-9 1-5 2-24 8h-11l-18-5-11-1-10-1h-7l-8 3-8 1-14-4v1l-3 1-9-5-3-1-17 2-10-1-9-1-8 1-7 1-2 1h-13l-2-1-13-2h-20l-11 2-14 3h-18l-10 1-3-1-2-1-4-1h-4l-16 1h-2l-7-1h-6l-8 1-6-2-5-1-2 1-20-1-10 2h-6l-11-1-9-1h-4l-3 1-19 1h-19l-3-1-11 1h-2l-7 3h-23l-3 1h-19l-16-1-17 1h-8l-2-1-20-2-4 1-4-1h-2l-12 1-2 1h-13l-9 1h-4l-6-1-10 1-9-1h-15l-9 2-12-2-12-2-3 2-5 2-11-3-6 1h-6l-28 1-5 2h-33l-3 1-4 2h-17l-5 1-4-1-7-1h-5l-4 1-13 3-2-2-2-1h-15l-22-1h-2l-11 1h-5l-2-1h-19l-9 1-6-1h-2l-9 2-15 2h-4l-12 1h-25l-12 1-7 1h-4l-4 1h-4l-4 1h-20l-3-1h-7l-1-1v-4l-1 1h-2l-9 1-2 2-6 2-7 1-5 2h-2l-3-2-8-1h-4l-11 3h-1l-3-2-11-3-20-6-9-3h-3l-9 2h-5l-11-4-13-3-11-15-21-4L0 0h1400z"></path>
+</svg></span>
+            <div class="wt-text-center-xs wt-body-max-width wt-pb-xs-6 wt-pt-xs-6 wt-pl-xs-5 wt-pr-xs-5 wt-pl-md-10 wt-pr-md-10 wt-pl-lg-9 wt-pr-lg-9">
+                <h2 class="wt-text-heading-02 wt-mb-xs-1 wt-text-center-xs"> Qu'est-ce qu'Etsy&nbsp;? </h2>
+                <a class="wt-text-link" href="https://www.etsy.com/fr/about"> Lisez notre merveilleuse et étrange histoire </a>
+
+                <div class="wt-display-flex-xs wt-flex-direction-column-xs wt-flex-direction-row-lg wt-pt-xs-6 wt-text-center-xs wt-text-left-lg wt-mb-lg-7 wt-mb-xs-1">
+                    <div class="wt-flex-xs-1 wt-mb-xs-5 wt-mb-lg-0">
+                        <div data-selector="what-is-etsy-community-impact-container" id="what-is-etsy-community-impact-container">
+    <h3 class="wt-text-title-03 wt-mb-xs-3"> Une communauté qui fait le bien autour d'elle </h3>
+
+    <p class="wt-text-body-01 wt-display-inline">
+        Etsy est un marché international en ligne, où les gens se retrouvent pour fabriquer, vendre, acheter et collectionner des articles uniques. Nous constituons également une communauté qui vise à obtenir des changements positifs pour les petites entreprises, les individus et la planète.
+    </p>
+
+    <div class="wt-popover wt-popover--top wt-display-inline" data-wt-popover="">
+        <a data-wt-popover-trigger="" class="wt-popover__trigger wt-popover__trigger--underline wt-align-items-center" aria-describedby="what-is-etsy-community-impact-popover">
+            <span class="wt-text-body-01">Voici quelques exemples de l'impact positif que nous générons ensemble.</span>
+        </a>
+
+        <div id="what-is-etsy-community-impact-popover" role="tooltip" class="wt-text-left-xs">
+            <div data-appears-component-name="impact_message" data-appears-event-data="{&quot;impact_name&quot;:&quot;hp_whatisetsy_community&quot;,&quot;impact_themes&quot;:[&quot;general&quot;],&quot;impact_audiences&quot;:[&quot;buyers&quot;]}">
+<ul class="appears-ready"><li>Vos achats sur Etsy ont généré près de 4&nbsp;millions de dollars de revenus pour de petites entreprises en 2020.</li>
+<li>Nous nous mobilisons en faveur de lois locales et internationales qui favorisent les entrepreneurs créatifs et aident les petites entreprises à se développer et à prospérer.</li>
+<li>Nous renforçons notre engagement envers un avenir durable et avançons vers notre nouvel objectif de zéro émission nette en 2030.</li>
+</ul>
+</div>
+        <span class="wt-popover__arrow"></span></div>
+    </div>
+</div>
+                    </div>
+                    <div class="wt-ml-lg-6 wt-mr-lg-6 wt-flex-xs-1 wt-mb-xs-5 wt-mb-lg-0">
+                        <h3 class="wt-text-title-03 wt-mb-xs-3"> Un soutien aux créateurs indépendants </h3>
+                        <p class="wt-text-body-01"> Chez Etsy, nous n'avons pas d'entrepôt, nous avons des millions d'individus qui vendent ce qu'ils aiment. Nous facilitons ce processus en vous aidant à entrer directement en contact avec les créateurs et à découvrir des articles extraordinaires. </p>
+                    </div>
+                    <div class="wt-flex-xs-1 wt-mb-xs-5 wt-mb-lg-0">
+                        <h3 class="wt-text-title-03 wt-mb-xs-3"> La tranquillité d'esprit </h3>
+                        <p class="wt-text-body-01"> Nous accordons une très haute importance à la confidentialité de vos données. Si vous avez besoin d'assistance en quoi que ce soit, nous sommes toujours prêts à intervenir pour vous aider. </p>
+                    </div>
+                </div>
+                <div class="wt-text-center-xs">
+                    <h4 class="wt-text-title-02"> Vous avez des questions&nbsp;? Eh bien, nous avons des réponses. </h4>
+                    <a class="wt-mt-xs-2 button wt-btn wt-text-black wt-btn--outline" href="https://www.etsy.com/help?ref=hp_what_is_etsy_help_center">Voir le Centre d'aide</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div><div class="hp-spacing-none">
+    
+        
+</div><div id="google-one-tap-modal-div" class="google-one-tap-modal-div">
+</div><div class="hp-spacing-none">
+    
+        
+</div><div class="hp-spacing-none">
+    
+        
+</div><div data-wt-overlay="" id="user-lists-overlay" class="wt-overlay wt-display-none wt-position-fixed wt-position-bottom wt-overlay--has-close-icon collection-list-overlay " role="dialog" aria-hidden="true" aria-modal="false" aria-labelledby="collection-modal-title" data-animations="{ &quot;open&quot;: { &quot;mask&quot;: &quot;wt-animated wt-animated--appear-02&quot;, &quot;content&quot;: &quot;wt-animated wt-animated--appear-02&quot; }, &quot;close&quot;: { &quot;mask&quot;: &quot;wt-animated wt-animated--disappear-02&quot;, &quot;content&quot;: &quot;wt-animated wt-animated--disappear-02&quot; } }">
+    <div class="wt-overlay__modal collection-list-overlay-view wt-display-flex-xs wt-pb-xs-0 wt-pb-md-4 " data-overlay-modal="">
+        <div data-collection-list="" data-max-characters="50" class="wt-overflow-hidden favorites-modal-collection-list wt-width-full">
+    <button class="wt-btn wt-btn--icon wt-btn--tertiary wt-btn--light  wt-overlay__close-icon
+        " data-wt-overlay-close="" data-overlay-initial-focus="" aria-label="Fermer">
+        <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.414,12l6.293-6.293a1,1,0,0,0-1.414-1.414L12,10.586,5.707,4.293A1,1,0,0,0,4.293,5.707L10.586,12,4.293,18.293a1,1,0,1,0,1.414,1.414L12,13.414l6.293,6.293a1,1,0,0,0,1.414-1.414Z"></path></svg></span>
+    </button>
+    <div data-collection-list-section="" class="favorites-modal--collection-list-section wt-position-relative wt-flex-direction-column-xs wt-height-full wt-align-items-center">
+        <div class="wt-overlay__header wt-display-flex-xs wt-align-items-center wt-justify-content-center ">
+
+            <img src="~/h_files/grey.gif" alt="Une image de la fiche produit que vous pouvez enregistrer" class="wt-mr-xs-2 wt-mr-md-3 add-to-list-overlay--img">
+
+            <h3 class="wt-text-heading-01" id="collection-modal-title">
+                <span data-collections-modal-title="" class="">
+                    Ajouter à une collection
+                </span>
+                <span data-registry-modal-title="" class="wt-display-none">
+                    Ajouter à la liste de cadeaux
+                </span>
+            </h3>
+        </div>
+        <div class="collection-list-loading-container" data-spinner-container="">
+            <div class="wt-spinner wt-spinner--02">
+                <div>Chargement</div>
+            </div>
+        </div>
+        <div class="wt-display-none collection-list-loading-container" data-collection-list-fail-state="">
+            <div class="wt-vertical-center wt-text-center-xs wt-text-gray">
+                <p>Oups, une erreur est survenue.</p>
+                <p>Réessayez.</p>
+            </div>
+        </div>
+        <fieldset class="wt-max-width-full wt-pr-xs-2 wt-overflow-scroll">
+            <div class="wt-display-none wt-width-full wt-action-group wt-action-group--image wt-list-inline wt-mb-xs-0" data-collection-list-content="">
+                <span class="wt-p-xs-0 wt-width-full wt-mb-xs-2">
+                    <input type="checkbox" id="create_new_list" hidden="">
+                    <label role="button" tabindex="0" data-add-list-trigger="" class="add-to-list-overlay-row wt-width-full wt-display-flex-xs wt-align-items-center">
+                        <div class="add-list--trigger add-to-list-overlay-row--icon wt-text-white wt-rounded-02 wt-display-flex-xs wt-justify-content-center wt-align-items-center">
+                            <span class="etsy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20,11H13V4a1,1,0,0,0-2,0v7H4a1,1,0,0,0,0,2h7v7a1,1,0,0,0,2,0V13h7A1,1,0,0,0,20,11Z"></path></svg></span>
+                        </div>
+                        <p class="wt-pl-xs-2 wt-text-title-01">
+                            Créer une nouvelle collection
+                        </p>
+                    </label>
+                </span>
+                
+                
+                
+            </div>
+        </fieldset>
+        <div class="wt-overlay__sticky-footer-container wt-bt-xs wt-width-full">
+            <div class="wt-overlay__footer wt-justify-content-flex-end wt-pt-md-4">
+                <div class="wt-overlay__footer__action">
+                    <button type="button" class="wt-btn wt-btn--primary wt-pr-md-7 wt-pl-md-7" data-wt-overlay-close="">Terminé</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wt-display-none" data-add-collection-section="" data-listing-id="">
+        <div data-collection-list-add="">
+    <div class="wt-overlay__header">
+        <h3 class="wt-text-heading-01 wt-text-center-xs">
+            Créer une nouvelle collection
+        </h3>
+    </div>
+    <div class="wt-display-flex-xs wt-flex-direction-row-xs wt-align-items-baseline">
+        <div class="wt-validation wt-width-full">
+            <label class="wt-label" for="edit-list">Nom</label>
+            <input data-add-collection-input="" autofocus="" aria-invalid="false" type="text" class="wt-input" id="edit-list" placeholder="Cadeaux, Maison, Mariage, etc.">
+            <div class="wt-display-flex-xs wt-justify-content-space-between">
+                <div>
+                    <div data-duplicated-name-alert="" data-error="duplicate_name" class="wt-validation__message wt-validation__message--is-hidden wt-text-red">Vous avez déjà utilisé ce nom</div>
+                    <div data-too-long-alert="" data-error="too_long" class="wt-validation__message wt-validation__message--is-hidden wt-text-red">
+                        Le nom de la collection est trop long
+                    </div>
+                </div>
+                <p class="wt-text-right-xs wt-text-gray wt-mt-md-1" data-character-count="">50</p>
+            </div>
+        </div>
+    </div>
+    <div class="wt-display-flex-sm wt-flex-direction-column-xs wt-flex-direction-row-md wt-justify-content-space-between wt-mt-xs-1">
+            <div class="wt-mb-xs-5 wt-mb-md-0">
+                <legend class="wt-text-title-01 wt-mt-xs-1">
+                    Mettre en privé&nbsp;?
+                </legend>
+                <p class="wt-text-body-01 wt-max-width-sm wt-ml-xs-0">
+                    Gardez ces collections pour vous ou inspirez d'autres acheteurs&nbsp;! Rappelez-vous que tout le monde peut voir les collections publiques. Elles peuvent également apparaître dans les recommandations et à d'autres endroits.
+                    <a href="https://www.etsy.com/fr/legal/privacy/" target="_blank">Voir le Règlement concernant la confidentialité d'Etsy</a></p>
+            </div>
+            <div>
+                    <div id="collection-privacy-control" class="wt-display-flex-md wt-flex-direction-column-xs wt-align-items-center" data-label-yes="Privée" data-label-no="Publique" data-selector="toggle-switch">
+                        <div class="wt-switch__wrapper" data-wt-props-small="true" data-wt-props-label-text="Mettre en privé ?" data-wt-props-label-type="hidden" data-wt-neu-rendered="">
+    
+    <div class="wt-switch__frame">
+        <input type="checkbox" class="wt-switch wt-switch--small" id="wt-switch-64d0ca7bc01d4">
+        <label class="wt-switch__toggle" for="wt-switch-64d0ca7bc01d4">
+            <span class="wt-screen-reader-only">
+                Mettre en privé&nbsp;? 
+            </span>
+        </label>
+    </div>
+    
+</div>
+
+                        <div class="wt-display-flex-xs wt-flex-direction-row-reverse-xs wt-align-items-center wt-justify-content-flex-end wt-nudge-t-2">
+                            <span data-toggle-private-text="" class="wt-text-body">
+                                Publique
+                            </span>
+                            <span class="etsy-icon wt-icon--smaller-xs wt-mr-xs-1 wt-display-none" data-toggle-private-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  <path d="M17 10V7A5 5 0 007 7v3H5v8a2 2 0 002 2h10a2 2 0 002-2v-8h-2zm-4 7a1 1 0 01-2 0v-4a1 1 0 012 0v4zm2-7H9V7a2.935 2.935 0 013-3 2.935 2.935 0 013 3v3z"></path>
+</svg></span>
+                            <span class="etsy-icon wt-icon--smaller-xs wt-mr-xs-1" data-toggle-public-icon=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+  <path d="M12 2a10 10 0 1010 10A10.012 10.012 0 0012 2zM9 18.883v.528a7.938 7.938 0 01-4.94-8.351l3.385 3.385a2.967 2.967 0 001.649 4.4L9 18.883zM17.5 15c.168 0 .335-.017.5-.05V15a.992.992 0 00.927.985A7.999 7.999 0 0112 20c-.216 0-.427-.016-.639-.032l1.254-2.5-.015.006a2.969 2.969 0 00-.08-3.11A2.988 2.988 0 008 13.78V11h1a1 1 0 001-1V9a1 1 0 001-1 1 1 0 100-2H6.726A7.9 7.9 0 0114 4.263V6a1 1 0 002 0v-.918a8.047 8.047 0 012 1.649V7h-1a1 1 0 100 2h2.411c.13.326.24.66.326 1H17a2.556 2.556 0 00-2 2.5 2.5 2.5 0 002.5 2.5z"></path>
+</svg></span>
+                        </div>
+                    </div>
+            </div>
+        </div>
