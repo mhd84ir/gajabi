@@ -28,6 +28,15 @@ public class HomeController : Controller
         return View();
     }
 
+        public IActionResult showproduct()
+    {
+        return View();
+    }
+    public IActionResult resetpass()
+    {
+        return View();
+    }
+
     public IActionResult singup()
     {
         return View();

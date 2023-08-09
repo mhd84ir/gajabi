@@ -27,6 +27,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/mhd84.ir/Desktop/gajabi/Views/Home/resetpass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXNldHBhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi/Views/Home/showproduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaG93cHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mhd84.ir/Desktop/gajabi/Views/Home/singin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaW5naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

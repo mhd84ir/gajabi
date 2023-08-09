@@ -82,14 +82,12 @@
 }
 
 @@font-face {
-  font-family: 'IranSansX';
-  src: url(wwwroot/fonts/IRANSansXFaNum-Black.ttf) format('truetype'),
-       url(wwwroot/fonts/IRANSansXFaNum-Bold.ttf) format('truetype');
-  /* Add more font files and formats if needed */
+   font-family: IRANSansX;
+   src: url(~/wwwroot/fonts/IRANSansX-Black.woff);
 }
 
-body{
-  font-family: 'IranSansX', sans-serif;
+* {
+   font-family: IRANSansX;
 }
 
 
@@ -293,8 +291,11 @@ body{
 }
 
 ul{
+    direction: rtl;
     text-align: right;
 }
+
+
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0YXR1c0Jhci5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLFNBQVM7RUFDVCxZQUFZO0VBQ1osV0FBVztFQUNYLGFBQWE7RUFDYixvQkFBb0I7RUFDcEIsdUJBQXVCO0VBQ3ZCLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtFQUN0QixvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRSxzQkFBc0I7QUFDeEI7O0FBRUEsMENBQTBDOztBQUMxQztFQUNFO0lBQ0UsYUFBYTtFQUNmO0FBQ0Y7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1osYUFBYTtFQUNiLGdCQUFnQjtFQUNoQixlQUFlO0VBQ2YseUJBQWlCO0tBQWpCLHNCQUFpQjtNQUFqQixxQkFBaUI7VUFBakIsaUJBQWlCO0VBQ2pCLFVBQVU7RUFDVixvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxrQkFBa0I7QUFDcEI7O0FBRUEsK0NBQStDOztBQUMvQzs7RUFFRSxrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLGNBQWM7RUFDZCxRQUFRO0VBQ1IsU0FBUztFQUNULGtDQUFrQztFQUNsQyxxQ0FBcUM7RUFDckMsK0JBQStCO0VBQy9CLFdBQVc7QUFDYjs7QUFFQTtFQUNFLCtCQUErQjtBQUNqQzs7QUFFQTtFQUNFLCtCQUErQjtBQUNqQzs7QUFFQTtFQUNFLGNBQWM7RUFDZCxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLG1CQUFtQjtFQUNuQixZQUFZO0VBQ1osbUJBQW1CO0VBQ25CLG9CQUFvQjtFQUNwQiwwQkFBMEI7RUFDMUIsd0JBQXdCO0FBQzFCOztBQUVBO0VBQ0UsNEJBQTRCO0FBQzlCOztBQUVBO0VBQ0UsY0FBYztFQUNkLFlBQVk7RUFDWixpQkFBaUI7RUFDakIsdUZBQXVGO0FBQ3pGOztBQUVBO0VBQ0UsY0FBYztFQUNkLGdCQUFnQjtFQUNoQixrQkFBa0I7RUFDbEIsWUFBWTtFQUNaLGlCQUFpQjtFQUNqQixrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQSxpREFBaUQ7O0FBQ2pEO0VBQ0UsK0JBQXVCO1VBQXZCLHVCQUF1QjtFQUN2Qix5Q0FBaUM7VUFBakMsaUNBQWlDO0VBQ2pDLDJDQUFtQztVQUFuQyxtQ0FBbUM7RUFDbkMsa0RBQTBDO1VBQTFDLDBDQUEwQztBQUM1Qzs7QUFFQSwyQkFBMkI7O0FBQzNCO0VBQ0U7O0lBRUUsT0FBTztJQUNQLHdCQUF3QjtFQUMxQjs7RUFFQTs7SUFFRSxVQUFVO0lBQ1YsNEJBQTRCO0VBQzlCO0FBQ0Y7O0FBWkE7RUFDRTs7SUFFRSxPQUFPO0lBQ1Asd0JBQXdCO0VBQzFCOztFQUVBOztJQUVFLFVBQVU7SUFDViw0QkFBNEI7RUFDOUI7QUFDRjs7QUFFQTtFQUNFLGNBQWM7RUFDZCx5QkFBaUI7S0FBakIsc0JBQWlCO01BQWpCLHFCQUFpQjtVQUFqQixpQkFBaUI7RUFDakIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsY0FBYztFQUNkLGtCQUFrQjtFQUNsQixPQUFPO0VBQ1AsUUFBUTtFQUNSLFlBQVk7RUFDWixXQUFXO0VBQ1gsWUFBWTtFQUNaLG1CQUFtQjtFQUNuQixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLGFBQWE7RUFDYixpREFBaUQ7RUFDakQsMkJBQTJCO0VBQzNCLG9CQUFvQjtBQUN0Qjs7QUFFQTtFQUNFLHdCQUF3QjtBQUMxQjs7QUFFQSwrQ0FBK0M7O0FBQy9DO0VBQ0UsV0FBVztFQUNYLFdBQVc7QUFDYiIsImZpbGUiOiJzdGF0dXNCYXIuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmdyYW5pZnlfX3N0YXR1cy1iYXItd3JhcHBlciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgYm90dG9tOiAwcHg7XG4gIGxlZnQ6IDBweDtcbiAgaGVpZ2h0OiA0MHB4O1xuICB3aWR0aDogMTAwJTtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IHN0cmV0Y2g7XG4gIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICBmb250LXNpemU6IDE1cHg7XG4gIHotaW5kZXg6IDIxNDc0ODM2NDg7XG4gIHRleHQtYWxpZ246IGxlZnQ7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIHBvaW50ZXItZXZlbnRzOiBub25lO1xufVxuXG4uZ3JhbmlmeV9fc3RhdHVzLWJhci13cmFwcGVyICoge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xufVxuXG4vKiBIaWRlIHRoZSBzdGF0dXMgYmFyIG9uIG1vYmlsZSBzY3JlZW5zICovXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDU2MHB4KSB7XG4gIC5ncmFuaWZ5X19zdGF0dXMtYmFyLXdyYXBwZXIge1xuICAgIGRpc3BsYXk6IG5vbmU7XG4gIH1cbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItYnV0dG9uIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgYmFja2dyb3VuZDogIzk3ZDUyNTtcbiAgY29sb3I6IHdoaXRlO1xuICBwYWRkaW5nOiAxMHB4O1xuICBmb250LXNpemU6IDAuOGVtO1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHVzZXItc2VsZWN0OiBub25lO1xuICB6LWluZGV4OiAxO1xuICBwb2ludGVyLWV2ZW50czogYXV0bztcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItYnV0dG9uOmhvdmVyIHtcbiAgYmFja2dyb3VuZDogIzhkYzcyMztcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItY2hldnJvbiB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cblxuLyogQ3JlYXRlIHRoZSB0cmlhbmdsZSBhdCB0aGUgZW5kIG9mIHNlY3Rpb25zICovXG4uZ3JhbmlmeV9fc3RhdHVzLWJhci1jaGV2cm9uOjphZnRlcixcbi5ncmFuaWZ5X19zdGF0dXMtYmFyLWNvbnRlbnQ6OmFmdGVyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICByaWdodDogLTIwcHg7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICB3aWR0aDogMDtcbiAgaGVpZ2h0OiAwO1xuICBib3JkZXItdG9wOiAyMHB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICBib3JkZXItYm90dG9tOiAyMHB4IHNvbGlkIHRyYW5zcGFyZW50O1xuICBib3JkZXItbGVmdDogMjBweCBzb2xpZCAjOTdkNTI1O1xuICBjb250ZW50OiBcIlwiO1xufVxuXG4uZ3JhbmlmeV9fc3RhdHVzLWJhci1jb250ZW50OjphZnRlciB7XG4gIGJvcmRlci1sZWZ0OiAyMHB4IHNvbGlkICMwODUxNTY7XG59XG5cbi5ncmFuaWZ5X19zdGF0dXMtYmFyLWNoZXZyb246aG92ZXI6OmFmdGVyIHtcbiAgYm9yZGVyLWxlZnQ6IDIwcHggc29saWQgIzhkYzcyMztcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItY29udGVudCB7XG4gIGZsZXg6IDEgMSBhdXRvO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBiYWNrZ3JvdW5kOiAjMDg1MTU2O1xuICBjb2xvcjogd2hpdGU7XG4gIHdoaXRlLXNwYWNlOiBub3dyYXA7XG4gIHBvaW50ZXItZXZlbnRzOiBhdXRvO1xuICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4xcztcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKDApO1xufVxuXG4uZ3JhbmlmeV9fc3RhdHVzLWJhci1jb250ZW50LmdyYW5pZnlfX3N0YXR1cy1iYXItaGlkZGVuIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC0xMDAlKTtcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItY29udGVudCAuZ3JhbmlmeV9fc3RhdHVzLWJhci1sb2dvIHtcbiAgZmxleDogMCAwIDQwcHg7XG4gIGhlaWdodDogNDBweDtcbiAgbWFyZ2luLWxlZnQ6IDIwcHg7XG4gIGJhY2tncm91bmQ6IHVybChodHRwczovL3d3dy5ncmFuaWZ5LmNvbS9odWJmcy9HcmFuaWZ5JTIwTG9nb3MvZ3JhbmlmeV9sb2dvX2ljb19yZ2Iuc3ZnKTtcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItY2FtcGFpZ24taW5mbyB7XG4gIGZsZXg6IDEgMSBhdXRvO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGhlaWdodDogMTAwJTtcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItY2FtcGFpZ24taW5mby1pbm5lciB7XG4gIGhlaWdodDogMTAwJTtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBtaW4td2lkdGg6IDEwMCU7XG59XG5cbi5ncmFuaWZ5X19zdGF0dXMtYmFyLWNhbXBhaWduLWluZm8taW5uZXIgPiAqOm5vdCg6Zmlyc3QtY2hpbGQpIHtcbiAgbWFyZ2luLWxlZnQ6IDEwcHg7XG59XG5cbi8qIG9ubHkgYW5pbWF0ZSB3aGVuIHRoZSBzbGlkZSBjbGFzcyBpcyBhcHBsaWVkICovXG4uZ3JhbmlmeV9fc3RhdHVzLWJhci1jYW1wYWlnbi1pbmZvLWlubmVyLmdyYW5pZnlfX3N0YXR1cy1iYXItY2FtcGFpZ24taW5mby1zbGlkZSB7XG4gIGFuaW1hdGlvbi1kdXJhdGlvbjogMTBzO1xuICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG4gIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlO1xuICBhbmltYXRpb24tbmFtZTogZ3JhbmlmeV9fc3RhdHVzLWJhci10aWNrZXI7XG59XG5cbi8qIGFuaW1hdGUgYmFjayBhbmQgZm9ydGggKi9cbkBrZXlmcmFtZXMgZ3JhbmlmeV9fc3RhdHVzLWJhci10aWNrZXIge1xuICAwJSxcbiAgMzMlIHtcbiAgICBsZWZ0OiAwO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgwKTtcbiAgfVxuXG4gIDY2JSxcbiAgMTAwJSB7XG4gICAgbGVmdDogMTAwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoLTEwMCUpO1xuICB9XG59XG5cbi5ncmFuaWZ5X19zdGF0dXMtYmFyLWNyZi1sYWJlbCB7XG4gIGNvbG9yOiAjZmY5MTkxO1xuICB1c2VyLXNlbGVjdDogbm9uZTtcbiAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xufVxuXG4uZ3JhbmlmeV9fc3RhdHVzLWJhci1jcmYtc2xpZGVyIHtcbiAgZGlzcGxheTogYmxvY2s7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgbGVmdDogMDtcbiAgcmlnaHQ6IDA7XG4gIGJvdHRvbTogMTAwJTtcbiAgd2lkdGg6IDEwMCU7XG4gIGNvbG9yOiB3aGl0ZTtcbiAgYmFja2dyb3VuZDogIzA2NDE0NjtcbiAgcGFkZGluZzogMTBweDtcbiAgd2hpdGUtc3BhY2U6IG5vcm1hbDtcbiAgei1pbmRleDogLTEwMDtcbiAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuM3MsIGxlZnQgMC4xcywgcmlnaHQgMC4xcztcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEwMCUpO1xuICBwb2ludGVyLWV2ZW50czogYXV0bztcbn1cblxuLmdyYW5pZnlfX3N0YXR1cy1iYXItY3JmLXNsaWRlci5ncmFuaWZ5X19zdGF0dXMtYmFyLWNyZi1zbGlkZXItYWN0aXZlIHtcbiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApO1xufVxuXG4vKiBIaWRlIHRoZSBjcmYtc2xpZGVyIHdoZW4gY29udGVudCBpcyBoaWRkZW4gKi9cbi5ncmFuaWZ5X19zdGF0dXMtYmFyLWNvbnRlbnQuZ3JhbmlmeV9fc3RhdHVzLWJhci1oaWRkZW4gfiAuZ3JhbmlmeV9fc3RhdHVzLWJhci1jcmYtc2xpZGVyIHtcbiAgcmlnaHQ6IDE1MCU7XG4gIGxlZnQ6IC0xNTAlO1xufVxuIl19 */</style></head>
     <body class="ui-toolkit transitional-wide is-responsive no-touch fr EUR FR mweb-two-nav-scroll-padding" data-language="fr" data-currency="EUR" data-region="FR" data-hover-none="true" data-visual-focus-state="true" data-mobile-viewport-height="true">
@@ -343,7 +344,7 @@ ul{
 </li>
 <li>
     <span class="wt-tooltip wt-tooltip--bottom-left wt-tooltip--disabled-touch" data-wt-tooltip="" data-header-cart-button="">
-        <a aria-label="Panier contenant 0 article" href="https://www.etsy.com/fr/cart?ref=hdr-cart" class="wt-tooltip__trigger wt-tooltip__trigger--icon-only wt-btn wt-btn--transparent wt-btn--icon">
+        <a aria-label="Panier contenant 0 article" href="/home/cartdesktop" class="wt-tooltip__trigger wt-tooltip__trigger--icon-only wt-btn wt-btn--transparent wt-btn--icon">
             <span class="wt-z-index-1 wt-no-wrap wt-display-none ge-cart-badge wt-badge wt-badge--notificationPrimary wt-badge--small wt-badge--outset-top-right" data-selector="header-cart-count" aria-hidden="true">
                 0
             </span>
@@ -354,12 +355,12 @@ ul{
             <span role="tooltip" aria-hidden="true">Panier</span>
     </span>
             <li>
-    <button class="wt-btn wt-btn--small wt-btn--transparent wt-mr-xs-1 inline-overlay-trigger signin-header-action select-signin">
+    <a href="/home/singin"  class="wt-btn wt-btn--small wt-btn--tertiary wt-mr-xs-1" >
     ورود
-    </button>
+    </a>
 </li>
 <li>
-    <a class="wt-btn wt-btn--small wt-btn--tertiary wt-mr-xs-1" href="https://www.etsy.com/fr/sell?ref=navbar-becomeseller-signedout">
+    <a  class="wt-btn wt-btn--small wt-btn--tertiary wt-mr-xs-1" href="/home/singup">
         ساخت حساب
     </a>
 </li>
@@ -3278,22 +3279,6 @@ ul{
 
     @RenderBody()
 
-        <div class="wt-overlay__footer">
-            <div class="wt-overlay__footer__cancel">
-                <button type="button" data-selector="cancel-make-public-button" class="wt-btn wt-btn--transparent wt-btn--transparent-flush-left wt-btn--transparent-flush-right">Annuler</button>
-            </div>
-            <div class="wt-overlay__footer__action">
-                <button type="button" data-selector="make-public-button" class="wt-btn wt-btn--primary">Rendre publique</button>
-            </div>
-        </div>
-    </div>
-</div>
-    </div>
-</div>
-    </div>
-</div>
-    </div>
-</div>
 
     <div id="listing-page-post-add-to-cart-overlay">
         <div class="wt-overlay wt-overlay--peek wt-overlay--has-close-icon" id="post-atc-overlay" aria-hidden="true" aria-modal="false" role="dialog" aria-label="This is an overlay" data-wt-overlay="">

@@ -1,0 +1,109 @@
+
+            <!-- WebVitals -->
+<script type="text/javascript" charset="utf-8" nonce="yElHmvM9s5T86mN8gl/ynNmy">
+    var webVitals=function(e){"use strict";var n,t=function(){return window.performance&&performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]},r=function(e){if("loading"===document.readyState)return"loading";var n=t();if(n){if(e<n.domInteractive)return"loading";if(0===n.domContentLoadedEventStart||e<n.domContentLoadedEventStart)return"dom-interactive";if(0===n.domComplete||e<n.domComplete)return"dom-content-loaded"}return"complete"},i=function(e){var n=e.nodeName;return 1===e.nodeType?n.toLowerCase():n.toUpperCase().replace(/^#/,"")},a=function(e,n){var t="";try{for(;e&&9!==e.nodeType;){var r=e,a=r.id?"#"+r.id:i(r)+(r.className&&r.className.length?"."+r.className.replace(/\s+/g,"."):"");if(t.length+a.length>(n||100)-1)return t||a;if(t=t?a+">"+t:a,r.id)break;e=r.parentNode}}catch(e){}return t},o=-1,c=function(e,n,t,r){var i,a;return function(o){n.value>=0&&(o||r)&&((a=n.value-(i||0))||void 0===i)&&(i=n.value,n.delta=a,n.rating=function(e,n){return e>n[1]?"poor":e>n[0]?"needs-improvement":"good"}(n.value,t),e(n))}},u=function(e,n){var r=t(),i="navigate";return o>=0?i="back-forward-cache":r&&(i=document.prerendering||function(){var e=t();return e&&e.activationStart||0}()>0?"prerender":document.wasDiscarded?"restore":r.type.replace(/_/g,"-")),{name:e,value:void 0===n?-1:n,rating:"good",delta:0,entries:[],id:"v3-".concat(Date.now(),"-").concat(Math.floor(8999999999999*Math.random())+1e12),navigationType:i}},d=function(e,n,t){try{if(PerformanceObserver.supportedEntryTypes.includes(e)){var r=new PerformanceObserver((function(e){Promise.resolve().then((function(){n(e.getEntries())}))}));return r.observe(Object.assign({type:e,buffered:!0},t||{})),r}}catch(e){}},s=0,f=1/0,v=0,l=function(e){e.forEach((function(e){e.interactionId&&(f=Math.min(f,e.interactionId),v=Math.max(v,e.interactionId),s=v?(v-f)/7+1:0)}))},p=function(){return n?s:performance.interactionCount||0},m=function(){"interactionCount"in performance||n||(n=d("event",l,{type:"event",buffered:!0,durationThreshold:0}))},g=0,h=function(){return p()-g},y=[],E={},b=function(e){var n=y[y.length-1],t=E[e.interactionId];if(t||y.length<10||e.duration>n.latency){if(t)t.entries.push(e),t.latency=Math.max(t.latency,e.duration);else{var r={id:e.interactionId,latency:e.duration,entries:[e]};E[r.id]=r,y.push(r)}y.sort((function(e,n){return n.latency-e.latency})),y.splice(10).forEach((function(e){delete E[e.id]}))}},T=function(e,n){var t;n=n||{},t=function(){var t=[200,500];m();var r,i,a,s,f=u("INP"),v=function(e){e.forEach((function(e){e.interactionId&&b(e),"first-input"===e.entryType&&!y.some((function(n){return n.entries.some((function(n){return e.duration===n.duration&&e.startTime===n.startTime}))}))&&b(e)}));var n,t=(n=Math.min(y.length-1,Math.floor(h()/50)),y[n]);t&&t.latency!==f.value&&(f.value=t.latency,f.entries=t.entries,r())},l=d("event",v,{durationThreshold:n.durationThreshold||40});r=c(e,f,t,n.reportAllChanges),l&&(l.observe({type:"first-input",buffered:!0}),i=function(){v(l.takeRecords()),f.value<0&&h()>0&&(f.value=0,f.entries=[]),r(!0)},s=function e(n){"pagehide"!==n.type&&"hidden"!==document.visibilityState||(i(n),a&&(removeEventListener("visibilitychange",e,!0),removeEventListener("pagehide",e,!0)))},addEventListener("visibilitychange",s,!0),addEventListener("pagehide",s,!0),function(e){addEventListener("pageshow",(function(n){n.persisted&&(o=n.timeStamp,e(n))}),!0)}((function(){y=[],g=p(),f=u("INP"),r=c(e,f,t,n.reportAllChanges)})))},document.prerendering?addEventListener("prerenderingchange",(function(){return t()}),!0):t()};return e.onINP=function(e,n){T((function(n){!function(e){if(e.entries.length){var n=e.entries.sort((function(e,n){return n.duration-e.duration||n.processingEnd-n.processingStart-(e.processingEnd-e.processingStart)}))[0];e.attribution={eventTarget:a(n.target),eventType:n.name,eventTime:n.startTime,eventEntry:n,loadState:r(n.startTime)}}else e.attribution={}}(n),e(n)}),n)},Object.defineProperty(e,"__esModule",{value:!0}),e}({});
+</script>
+<!-- /WebVitals -->
+
+
+
+        <script nonce="yElHmvM9s5T86mN8gl/ynNmy">
+        window.Etsy=window.Etsy||{};
+        Etsy.Context=Etsy.Context||{};
+
+        (function() {
+            function assign(firstSource, secondSource) {
+                if (!secondSource) {
+                  return;
+                }
+
+                var out = Object(firstSource);
+
+                for (var key in secondSource) {
+                    // Avoid bugs when hasOwnProperty is shadowed
+                    if (Object.prototype.hasOwnProperty.call(secondSource, key)) {
+                        out[key] = secondSource[key];
+                    }
+                }
+                return out;
+            }
+
+            Etsy.Context.feature=assign(Etsy.Context.feature ? Etsy.Context.feature : {}, {"isAppShellEnabled":true});
+            Etsy.Context.data=assign(Etsy.Context.data ? Etsy.Context.data : {}, {"is_mobile":false,"should_auto_redirect":false,"locale_settings":{"language":{"code":"en-US","id":0,"name":"English (US)","translation":"English (US)","is_detected":false,"is_default":true},"currency":{"currency_id":978,"code":"EUR","name":"Euro","number_precision":2,"symbol":"\u20ac","listing_enabled":true,"browsing_enabled":true,"buyer_location_restricted":false,"rate_updates_enabled":true,"is_detected":false,"is_default":false,"append_currency_symbol":false},"region":{"code":"FR","country_id":103,"name":"France","translation":"France","is_detected":false,"is_default":false,"is_EU_region":true},"subdir_code":""},"neu_api_specs_sample_rate":null,"FB_GRAPHQL_VERSION":"v2.10","page_guid":"f6282563ca2.f5752ba02af8d6ad7adf.00","primary_event_name":"forgot_password","request_uuid":"EuFg3S7Vgk-bNxR1wZjAXG7f_xa7","sign_in_modal_mweb":false,"user_is_test_account":false,"user_id":null,"css_variant":"sasquatch","guest_uaid":["fYp22RCwcKhJa-IOfnx8B67uQLqj","fYp22RCwcKhJa-IOfnx8B67uQLqj"],"etsyweb_granify_traffic":true,"is_app_shell":true,"csrf_nonce":"3:1691576790:gvUWC6Wwa6Qfq2KBnCxnJgj63wxl:d3331da31d0cac1715da0648b9f473a5bc97230af9183717235e12e8dd1bf092","uaid_nonce":"3:1691576790:pcQl4n2FtZZk1F_Ivk14ZegRPSTO:fe12e0baaff944e19a16776efb07840afd5c53d4560e455684d5fbc990238382","clientlogger":{"is_enabled":true,"endpoint":"\/clientlog","logs_per_page":6,"id":"EuFg3S7Vgk-bNxR1wZjAXG7f_xa7","digest":"b4caa967a9c174473763581f43df5f17f0f315da","enabled_features":["info","warn","error","basic","uncaught"]},"impact_tracker_should_prompt_signin":false,"impact_tracker_should_direct_open":false,"shop_favorites_see_all_link":"See all","shop_favorites_search_header":"Shops you follow","is_mobile_shop_search":false,"show_simplified_mobile_header":false,"is_eligible_for_ship_to_setting_in_global_header":false,"in_cart_count":2,"show_mini_cart":false,"page_type":null,"locale_acknowledgement_enabled":[true,true],"is_gift_guide_flyout_enabled":false,"should_hide_sub_nav":false,"use_mousedown_autosuggest_listener":false,"mweb_full_screen_search_dropdown":false,"relocate_cat_nav":false,"mott_version":"303be70","catnav_show_sales":false,"catnav_gift_guide":"off","gifting_catnav_flyout_js":false,"impact_message":{"footer_renewable_impact":{"impact_name":"footer_renewable_impact","impact_themes":["sustainability"],"impact_audiences":["buyers"]}}});
+        })();
+    </script>
+
+        <script nonce="yElHmvM9s5T86mN8gl/ynNmy">__webpack_public_path__ = "https://www.etsy.com/ac/evergreenVendor/js/en-US/";</script>
+
+<script nonce="yElHmvM9s5T86mN8gl/ynNmy">(function() {
+var asyncAvailable = true;
+try {
+    eval("async () => {}");
+} catch(e) {
+    asyncAvailable = false;
+}
+
+var falseUA = true && !asyncAvailable;
+var primarySupportsAsync = !true && asyncAvailable;
+
+var clientloggerIsEnabled = true;
+if (clientloggerIsEnabled) {
+    if (falseUA) {
+        new Image().src = '/clientlog?falseua=1';
+    }
+    if (primarySupportsAsync) {
+        new Image().src = '/clientlog?primarysupportsasync=1';
+    }
+    if (window.__etsy_logging && window.__etsy_logging.bots && (window.__etsy_logging.bots.isBot || window.__etsy_logging.bots.botCheck.length > 0)) {
+        new Image().src = '/clientlog?feisbot=1&bot_check=' + encodeURIComponent(JSON.stringify(window.__etsy_logging.bots.botCheck));
+    }
+}
+
+})();</script>
+
+    <script type="text/javascript" nonce="yElHmvM9s5T86mN8gl/ynNmy" src="~/h_files/polyfill.min.js" defer=""></script>
+    <script type="text/javascript" nonce="yElHmvM9s5T86mN8gl/ynNmy" src="~/h_files/vendor_bundle.6d800a2a78ce383b6118.js" defer=""></script>
+    <script type="text/javascript" nonce="yElHmvM9s5T86mN8gl/ynNmy" src="~/h_files/index.a68bb1abd275df4262de.js" defer=""></script>
+    <script type="text/javascript" nonce="yElHmvM9s5T86mN8gl/ynNmy" src="~/h_files/country-picker.62e5cc9c21c7d6e5ca9b.js" defer=""></script>
+    <script type="text/javascript" nonce="yElHmvM9s5T86mN8gl/ynNmy" src="~/h_files/forgotPassword.eb8d083e8ba8328d9218.js" defer=""></script>
+
+        <main id="content" style="    text-align: right;
+    direction: rtl;">
+            <div id="forgot-password-container" class="wt-max-width-auto wt-mt-xs-5 wt-m-xs-3 wt-display-flex-xs wt-justify-content-center" >
+
+<div class="wt-panel wt-display-inline-block wt-p-lg-6 " style="  border: 2px solid black;
+  padding: 10px;
+  border-radius: 50px 20px;width: 40%;">
+        <h1 class="wt-text-heading-01 wt-mb-xs-4" >تغییر رمز عبور</h1>
+        <p class="wt-mb-xs-3">برای تغییر رمز خود ادرس ایمیلتان را وارد کنید</p>
+        <form id="forgot-password" action="https://www.etsy.com/forgot_password" method="post">
+            <label for="email" class="wt-text-title-01">ادرس ایمیلتان  :</label>
+            <input id="email" class="wt-input wt-mb-xs-2 wt-mt-xs-1" value="">
+
+                <div class="g-recaptcha-etsy" data-sitekey="6LcZC3caAAAAAM7Lv6hp32drvWn4FKp3MR1NVfVZ" data-etsy-autoload="true" data-recaptcha-version="enterprise" data-recaptcha-key-type="invisible" id="g-recaptcha-etsy-forgot_password-invisible" data-badge="inline" data-recaptcha-action="forgot_password" data-etsy-loaded="true"><div class="grecaptcha-badge" data-style="inline" style="width: 256px; height: 60px; box-shadow: gray 0px 0px 5px;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="~/h_files/anchor.html" width="256" height="60" role="presentation" name="a-6051hms0nm2e" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="~/h_files/saved_resource(1).html"></iframe></div>
+<div class="wt-alert wt-alert--inline wt-alert--error-01 wt-display-none js-recaptcha-load-error">
+       <p class="wt-text-body-01">Captcha failed to load. Try using a different browser or disabling ad blockers.</p>
+</div>
+<input id="g-recaptcha-etsy-forgot_password-invisible-input" type="hidden" name="enterprise_recaptcha_token" value="03ADUVZwDWP7kbZTzZjOHy8o-2nD3aRfU1LDMi-oVelOfZa-ODR04sR85H4LZV5FHaajcmB-HaTjPCbqEW1DmTz06bUvFQ2mfwwBHN8rkL3FxwIXu7K7ZxuUG0hygAbfyCyo-sRnYl8VcfNV-wYREVYnb_3LxG9P6OfZdGp3JKeJJQccstmQWxzl3FutbaUcrB7wuwuNYVmsusvIUD_A8XpMvN3H1E_eOON-wslI3IhNNdvB60utXRG0TiBMUcgd9ljQt-D7WeFvXMH3alyr261zvHbCNfWlM7HSaHS8y-Gb1kDOTWwJwCGAZaPYKpaS3AjFe74tg37ZWS_W4493T7VM3U_m859ThzxUNlOKS5626xGHnEJzTY7l3xezWj9UIVypPpxUOZfgyLtZ8iKGL_WYe9PPWUAFGOzK9rjPa0Q34Ao2lcE3j_e5qnQDz_bgB_IR17qmffeay2R0uLUpFKpmZKJCiFfJz7FmDKTXqeoeQskwnzToiBzkX3iLJpWFIVTLhFkJfkxMIEsspUTE1sD-DqNFNGSEO_CB0eKxPgdNmU_zmNDC4TpAAwyFEOrRJXmARQwR6-OlPGfg3960rECcbwqa1fN3_sdJ2UzVE0ncUaCPl1czneeOdTZ8tqL6H8oI6-c8JVOjOH7UtZ6xHzgXh935KGPns-RaiIJNP8L-YetXn6I2I88xjLa7D6V3vWeQmJbtR6tdf5iX2aZ4J_mPukBptJfC-Pina1-RtqKy22YW2-tFMmqFcqDFSGqeA4tWNpuEa1rQETUP2Gljs7c2qF01UkGMIfJV_RVt3PzAhu2K03uyOZvR4qH7wqbKt3-9K1HS_HqA9j87ngJkZD-YF3nYz8x0GTsykKiAWzYD0t9IW-QhN3kVGu9mYpWphESRBg7Z7NhPPfrFTVm0pHEa_I7wecqUBzlWGOZ4mqVAOs4rtc5Yc2apg8RnFk1ejQP4zMAYWqdCP4flKgexMl-FzDX8K3Vs771XCvS8AmsNVtRil9SNCOPXCRs2yY-f4RDwZRl03sLaVID-80WNEHOS2lhPWxK550Ek75W164CI4Thq0e-KYCRHUJX9k04o-xhxT5rGlqvwp-5bNzdvjvXVN81RZz0nLw-Q16nJCckPqnAqRR-RJuZl5yYoQIjDGu0zqW5X_nWjJ7oMRZNruRIie_cAnyXryNkyTOGMnAJkWZu-pTrQtH6Yv-A1y5iObTAhurxhTNZUX22go0WMAFvut2oHh5KpJOlzliyGLLqIZcmBO0tHfjlRMjC1UXQLOFiPHFrB9ezx1vWjZDO6qdzZtdiCd9Qo_scAg6wi0nN9c2WRMMXvwCe-zL6xzwXag6oFUocNQMhMZqDE1LmjRyQkgERMrAETI3uskZrcTVUCebCSCRk6BzQOZ04ypc1WTybEdANzWHWd3fBxgTOsWrrJ0TzQsi70tiEV3bP2enMKjzyQDWZvMCtV4fgnipvwQ0Saf7t2ycXhw5d5r8HjDvFaIY6irp6sTEPhdBdsKM8bJSHBvheMAVekNBex3bbrtvx-pcnFjYVGJ1uxj6ZOga3mW5SnHN14GEL-mSJBuKy7W3mNMNL2u5XX6neubFHfX0WfU9iqp_vomirOltREhy1izsgR38aEaSJ6tHbuRDkiDZalZFGREtN4l00wBcWg44OT7MZ86QKOumXTIJX6du938hrsfzpbV16TppIcPMGVxl5v4LrM4TIPWudkh5blu-LpqjrqGI_vSV0j0ngy2KKIx04ejpYzXn8_OD7ayEL47faDxDEnwNuYjJEVwvayUAjDXIWHMrukM8K4lmQ6411qxJyzQWqFp3_mFSVOZaWkOTe-uF-a_gCwqbSJhQ7i0mcBgWv4-jSoKG">
+<input id="g-recaptcha-etsy-forgot_password-invisible-input-key-type" type="hidden" name="enterprise_recaptcha_token_key_type" value="invisible">
+
+            <p class="wt-text-brick wt-display-none wt-mb-xs-2 wt-mt-xs-2" style="min-width: 100%; width: 0;" id="error-msg"></p>
+            <button type="submit" class="wt-btn wt-btn--primary wt-mt-xs-2" id="pw-reset-btn">
+                لینک را به ایمیلم بفرست
+                
+            </button>
+        </form>
+    </div>
+</div>
+
+<div id="success-container" class="wt-display-none wt-max-width-auto wt-mt-xs-8 wt-justify-content-center wt-mt-xs-6">
+    <div class="wt-panel wt-display-inline-block wt-p-xs-6">
+        <h1 class="wt-text-heading-01 wt-mb-xs-4">Check your email</h1>
+        <p class="wt-mb-xs-4">Use the sign-in link we sent to <strong id="email-placeholder"></strong> to reset your password.
+             <br><br><br> Be sure to double check your email—it must be connected to an account to receive this <br> message with a link to reset your password.</p>
+    </div>
+</div>
+</div>
+</div>
+        </main>
+
