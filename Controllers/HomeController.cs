@@ -23,6 +23,21 @@ public class HomeController : Controller
         return View();
     }
 
+        public IActionResult singin()
+    {
+        return View();
+    }
+
+    public IActionResult singup()
+    {
+        return View();
+    }
+
+        public IActionResult cartdesktop()
+    {
+        return View();
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {

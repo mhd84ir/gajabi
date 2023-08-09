@@ -15,12 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/mhd84.ir/Desktop/gajabi
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/mhd84.ir/Desktop/gajabi/Views/Home/cartdesktop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jYXJ0ZGVza3RvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/mhd84.ir/Desktop/gajabi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mhd84.ir/Desktop/gajabi/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi/Views/Home/singin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaW5naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi/Views/Home/singup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaW5ndXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/mhd84.ir/Desktop/gajabi/Views/Shared/Error.cshtml]
