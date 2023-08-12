@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TKiChHoNBGJXcpTK0lMrNftu6UihVVtJdtUyWlwqbzE=",
+  "Hash": "fu41z5NRBuXKZYLbAYL3v9mePv24937+ftgi2jVicNA=",
   "Source": "gajabi",
   "BasePath": "_content/gajabi",
   "Mode": "Default",
@@ -799,6 +799,40 @@
       "OriginalItemSpec": "wwwroot/h_files/bootstrap.1faedd12b42d2f2f4299.js"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/bootstrap.36f1d184aae2823366cf.js",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/bootstrap.36f1d184aae2823366cf.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/bootstrap.36f1d184aae2823366cf.js"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/bootstrap.3b01b396a6375c42aa01.js",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/bootstrap.3b01b396a6375c42aa01.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/bootstrap.3b01b396a6375c42aa01.js"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/bootstrap.416a1e03e3124f5c6827.js",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -1290,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/enterprise.js"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/events.js",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/events.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/events.js"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/f.txt",
@@ -1972,6 +2023,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_300x300.4960533589_o7l9.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_300x300.5002890201_14zj.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_300x300.5002890201_14zj.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_300x300.5002890201_14zj.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_300x300.5091097377_rwws.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -2482,6 +2550,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.1629417129_9lly.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.1629417665_p5t7.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.1629417665_p5t7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.1629417665_p5t7.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.1647733238_ii2l.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -2737,6 +2822,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.2643323685_72vk.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.2775363220_slmw.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.2775363220_slmw.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.2775363220_slmw.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.2838755366_ay3o.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -2839,6 +2941,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.3194509663_j32j.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3209963287_1a0j.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.3209963287_1a0j.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.3209963287_1a0j.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3267251997_khen.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -2856,6 +2975,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.3267251997_khen.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3292935261_qyp7.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.3292935261_qyp7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.3292935261_qyp7.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3400142440_mhdz.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -2871,6 +3007,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.3400142440_mhdz.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3427737629_hriu.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.3427737629_hriu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.3427737629_hriu.jpg"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3478195675_qbsw.jpg",
@@ -2905,6 +3058,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.3510827878_9xx3.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3537966778_qghr.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.3537966778_qghr.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.3537966778_qghr.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3643041059_7dta.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.3643041059_7dta.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.3643041059_7dta.jpg"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3670599660_eqr6.jpg",
@@ -3060,6 +3247,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.3942872467_dyzh.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3951790023_dt63.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.3951790023_dt63.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.3951790023_dt63.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.3962880307_1eo5.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -3128,6 +3332,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.4040002291_qn8j.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4041960475_g17k.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.4041960475_g17k.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.4041960475_g17k.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4071902754_punh.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -3177,6 +3398,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.4082734728_iwl6.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4103560920_hjr0.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.4103560920_hjr0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.4103560920_hjr0.jpg"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4104224793_erps.jpg",
@@ -3247,6 +3485,40 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.4179530107_ldrt.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4188831675_ljh8.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.4188831675_ljh8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.4188831675_ljh8.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4218101546_6nf7.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.4218101546_6nf7.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.4218101546_6nf7.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4221380760_ervd.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -3262,6 +3534,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.4221380760_ervd.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4224265120_fnks.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.4224265120_fnks.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.4224265120_fnks.jpg"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4245158366_rjkh.jpg",
@@ -3672,6 +3961,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_340x270.4982324524_fgz3.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4982337746_duky.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_340x270.4982337746_duky.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_340x270.4982337746_duky.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_340x270.4988476636_jznx.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -3927,6 +4233,23 @@
       "OriginalItemSpec": "wwwroot/h_files/il_680x540.3400142440_mhdz.jpg"
     },
     {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_680x540.4104224793_erps.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_680x540.4104224793_erps.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_680x540.4104224793_erps.jpg"
+    },
+    {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_75x75.2829697535_kfdw.jpg",
       "SourceId": "gajabi",
       "SourceType": "Discovered",
@@ -3942,6 +4265,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/il_75x75.2829697535_kfdw.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_75x75.3194509663_j32j.jpg",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/il_75x75.3194509663_j32j.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/il_75x75.3194509663_j32j.jpg"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/il_75x75.4781628886_q4sj.jpg",
@@ -4248,6 +4588,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/il_fullxfull.4781628886_q4sj.jpg"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/index.01057a38a645901598cd.js",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/index.01057a38a645901598cd.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/index.01057a38a645901598cd.js"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/index.3bbc0844dffe197924a4.js",
@@ -4622,6 +4979,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/h_files/panels.543a95b0944cba.css"
+    },
+    {
+      "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/ping.min.js",
+      "SourceId": "gajabi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/",
+      "BasePath": "_content/gajabi",
+      "RelativePath": "h_files/ping.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/h_files/ping.min.js"
     },
     {
       "Identity": "/Users/mhd84.ir/Desktop/gajabi/wwwroot/h_files/polyfill.min.js",
