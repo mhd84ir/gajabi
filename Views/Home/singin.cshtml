@@ -5,18 +5,26 @@
 
 
 <style>
-@@font-face {
-   font-family: IRANSansX;
-   src: url(~/wwwroot/fonts/IRANSansX-Black.woff);
+
+        @@font-face {
+	font-family: IRANSansX;
+	font-style: normal;
+	font-weight: 100;
+	src: url('/fonts/woff/IRANSansX-black.woff') format('woff'),   
+	url('/fonts/woff2/IRANSansX-black.woff2') format('woff2');
+    color: #000000;
+    
 }
 
-* {
-   font-family: IRANSansX;
+
+*{
+    font-family: IRANSansX  !important;
 }
 body{
 
   text-align: right;
   direction: rtl;
+  font-family: IRANSansX  !important;
 }
 
 
