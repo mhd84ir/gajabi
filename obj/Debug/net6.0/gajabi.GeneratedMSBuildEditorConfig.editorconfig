@@ -8,61 +8,273 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = gajabi
 build_property.RootNamespace = gajabi
-build_property.ProjectDir = /Users/mhd84.ir/Desktop/gajabi/
+build_property.ProjectDir = /Users/mhd84.ir/Desktop/gajabi-project/gajabi/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mhd84.ir/Desktop/gajabi
+build_property.MSBuildProjectDirectory = /Users/mhd84.ir/Desktop/gajabi-project/gajabi
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/cartdesktop.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Address/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRkcmVzcy9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Address/map.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQWRkcmVzcy9tYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/agency/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvYWdlbmN5L2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/agency/list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvYWdlbmN5L2xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Baner/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQmFuZXIvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Baner/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQmFuZXIvTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/blog/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvYmxvZy9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/blog/list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvYmxvZy9saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/blog/updateblog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvYmxvZy91cGRhdGVibG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Category/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcnkvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/comment/Acceptede.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvY29tbWVudC9BY2NlcHRlZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/comment/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvY29tbWVudC9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/comment/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvY29tbWVudC9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/comment/Notaccepted.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvY29tbWVudC9Ob3RhY2NlcHRlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/experts/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvZXhwZXJ0cy9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/experts/list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvZXhwZXJ0cy9saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/financial/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvZmluYW5jaWFsL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/financial/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvZmluYW5jaWFsL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/gallery/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvZ2FsbGVyeS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/gallery/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvZ2FsbGVyeS9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9sb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/logo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvbG9nby9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Msg/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTXNnL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Msg/Detailssnd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTXNnL0RldGFpbHNzbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Msg/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTXNnL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Msg/send.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvTXNnL3NlbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/order/detailfactor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvb3JkZXIvZGV0YWlsZmFjdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/order/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvb3JkZXIvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/order/ongoing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvb3JkZXIvb25nb2luZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/order/sender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvb3JkZXIvc2VuZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/order/show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvb3JkZXIvc2hvdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Originality/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvT3JpZ2luYWxpdHkvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvcHJvZHVjdC9BZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/product/Arshive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvcHJvZHVjdC9BcnNoaXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/product/list.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvcHJvZHVjdC9saXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/product/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvcHJvZHVjdC91cGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Profile/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUHJvZmlsZS9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/RayChat/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvUmF5Q2hhdC9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Shared/PartialMualtiImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL1BhcnRpYWxNdWFsdGlJbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/slider/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvc2xpZGVyL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/slider/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3Mvc2xpZGVyL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/SocialNetwork/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU29jaWFsTmV0d29yay9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Sourcehelp/DropdownSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU291cmNlaGVscC9Ecm9wZG93blNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Sourcehelp/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU291cmNlaGVscC9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Sourcehelp/UploadImageMulti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU291cmNlaGVscC9VcGxvYWRJbWFnZU11bHRpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/Sourcehelp/UploadImageSingle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU291cmNlaGVscC9VcGxvYWRJbWFnZVNpbmdsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/teaser/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvdGVhc2VyL2luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/teaser/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvdGVhc2VyL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/users/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvdXNlcnMvaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/cartdesktop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jYXJ0ZGVza3RvcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/Index.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/Privacy.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/resetpass.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/resetpass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXNldHBhc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/showproduct.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/showproduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaG93cHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/singin.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/singin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaW5naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/singup.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/singup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zaW5ndXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Home/test.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Home/test.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90ZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Shared/Error.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/_ViewImports.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/_ViewStart.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mhd84.ir/Desktop/gajabi/Views/Shared/_Layout.cshtml]
+[/Users/mhd84.ir/Desktop/gajabi-project/gajabi/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-g4t4yde11h

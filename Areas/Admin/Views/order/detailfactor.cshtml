@@ -1,0 +1,50 @@
+
+
+    <!-- BEGIN: Content-->
+<section id="data-list-view" class="data-list-view-header">
+  <!-- DataTable starts -->
+                                                            <div class="table-responsive">
+                                                              <table class="table data-list-view">
+                                                                <thead>
+                                                                  <tr>
+                                                                    <th></th>
+                                                                    <th>ردیف</th>
+                                                                    <th>کد محصول</th>
+                                                                    <th> نام محصول  </th>
+                                                                     <th>تعداد</th>
+                                                                    <th>مبلغ (تومان)</th>
+                                                                     <th>مبلغ کل (تومان)</th>
+                                                                    <th> شناسه پیگیری</th>
+                                                                  </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                  @{
+                                                                      if (ViewBag.order != null)
+                                                                      {
+                                                                        int i=1;
+                                                                        foreach (var item in ViewBag.order)
+                                                                        {
+                                                                            <tr>
+                                                                                <td></td>
+                                                                                <td class="product-category"> @i</td>
+                                                                                <td class="product-name">@item.Product_Id</td>
+                                                                                <td class="product-category">@item.product_Name </td>
+                                                                                <td class="product-category">@item.Product_Count </td>
+                                                                                <td class="product-name">@item.product_Price</td>
+                                                                                <td class="product-name">@item.Total_sum</td>
+                                                                                <td class="product-name">@item.RFactor</td>
+                                                                            </tr>
+                                                                           i++;
+                                                            
+                                                                        }
+                                                            
+                                                                      }
+                                                                    }
+                                                                </tbody>
+                                                              </table>
+                                                            </div>
+
+      
+
+      </section>
+<!-- Data list view end -->

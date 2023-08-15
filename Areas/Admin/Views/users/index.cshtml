@@ -1,0 +1,68 @@
+    <!-- BEGIN: Content-->
+<section id="data-list-view" class="data-list-view-header">
+  @if (ViewBag.er != null)
+{
+    <p class="alert alert-success">@ViewBag.er</p>
+}
+  <!-- DataTable starts -->
+  <div class="table-responsive">
+    <table class="table data-list-view">
+      <thead>
+          <tr>
+         
+          <th>ردیف</th>
+          <th> نام  کاربر </th>
+          <th> شماره تماس  </th>
+             <th>  آدرس </th>
+                          <th>  پروفایل </th>
+
+             <th>  تبدیل به فروشگاه </th>
+        </tr>
+      </thead>
+      <tbody>
+@if (ViewBag.list != null)
+{
+  int i=1;
+    foreach (var item in ViewBag.list)
+    {
+          <tr>
+         
+          <td class="product-category"> @i</td>
+          <td class="product-name">@item.UserNameUs</td>
+          <td class="product-category">@item.PhoneUs </td>
+          <td class="product-category">@item.AddressUs </td>
+          <td class="product-category">
+               <img src="/fileupload/@item.ProfileImageUs" style="width: 55px;border-radius: 50%;" alt="">
+          </td>
+           
+           @if (@item.Language=="shop")
+           {
+                 <td><a href="/admin/users/shop?phone=@item.PhoneUs" class="btn btn-success ">فروشگاه فعال </a></td>
+
+           }else
+           {
+                        <td><a href="/admin/users/shop?phone=@item.PhoneUs" class="btn btn-danger ">فعال کردن فروشگاه</a></td>
+
+           }
+        </tr>
+        i++;
+
+    }
+}
+      
+
+       
+
+
+
+
+      </tbody>
+    </table>
+  </div>
+  <!-- DataTable ends -->
+
+  <!-- add new sidebar starts -->
+ 
+  <!-- add new sidebar ends -->
+</section>
+<!-- Data list view end -->

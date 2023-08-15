@@ -1,17 +1,165 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mhd84.ir/Desktop/gajabi/gajabi.csproj": {}
+    "/Users/mhd84.ir/Desktop/gajabi-project/gajabi/gajabi.csproj": {}
   },
   "projects": {
-    "/Users/mhd84.ir/Desktop/gajabi/gajabi.csproj": {
+    "/Users/mhd84.ir/Desktop/gajabi-project/Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mhd84.ir/Desktop/gajabi/gajabi.csproj",
-        "projectName": "gajabi",
-        "projectPath": "/Users/mhd84.ir/Desktop/gajabi/gajabi.csproj",
+        "projectUniqueName": "/Users/mhd84.ir/Desktop/gajabi-project/Data/Data.csproj",
+        "projectName": "Data",
+        "projectPath": "/Users/mhd84.ir/Desktop/gajabi-project/Data/Data.csproj",
         "packagesPath": "/Users/mhd84.ir/.nuget/packages/",
-        "outputPath": "/Users/mhd84.ir/Desktop/gajabi/obj/",
+        "outputPath": "/Users/mhd84.ir/Desktop/gajabi-project/Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mhd84.ir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj": {
+                "projectPath": "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mhd84.ir/Desktop/gajabi-project/gajabi/gajabi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mhd84.ir/Desktop/gajabi-project/gajabi/gajabi.csproj",
+        "projectName": "gajabi",
+        "projectPath": "/Users/mhd84.ir/Desktop/gajabi-project/gajabi/gajabi.csproj",
+        "packagesPath": "/Users/mhd84.ir/.nuget/packages/",
+        "outputPath": "/Users/mhd84.ir/Desktop/gajabi-project/gajabi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mhd84.ir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mhd84.ir/Desktop/gajabi-project/Data/Data.csproj": {
+                "projectPath": "/Users/mhd84.ir/Desktop/gajabi-project/Data/Data.csproj"
+              },
+              "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj": {
+                "projectPath": "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "KavenegarDotNetCore": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Zarinpal": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj",
+        "projectName": "ViewModel",
+        "projectPath": "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/ViewModel.csproj",
+        "packagesPath": "/Users/mhd84.ir/.nuget/packages/",
+        "outputPath": "/Users/mhd84.ir/Desktop/gajabi-project/ViewModel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mhd84.ir/.nuget/NuGet/NuGet.Config"
@@ -37,6 +185,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

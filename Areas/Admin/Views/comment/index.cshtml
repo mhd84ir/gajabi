@@ -1,0 +1,59 @@
+
+
+    <!-- BEGIN: Content-->
+<section id="data-list-view" class="data-list-view-header">
+  @if (ViewBag.suc != null)
+  {
+      <span class="alert alert-success">@ViewBag.suc</span>
+  }
+  
+  <!-- DataTable starts -->
+  <div class="table-responsive">
+    <table class="table data-list-view">
+      <thead>
+        <tr>
+          <th></th>
+          <th>ردیف</th>
+          <th>  کاربر </th>
+          <th>  تاریخ ثبت نظر</th>
+          <th> عملیات</th>
+        </tr>
+      </thead>
+      <tbody>
+@if (ViewBag.nazarat != null)
+{
+  int i=0;
+    @foreach (var item in ViewBag.nazarat)
+{
+
+    <tr>
+          <td>
+          
+          </td>
+
+          <td class="product-category">@i</td>
+         
+          <td class="product-name">@item.User</td>
+          <td class="product-category">@item.Date </td>
+           <td class="product-action">
+             <div class=" mb-1">
+                <div class="btn-group"  aria-label="Basic example">
+                  <a href="/admin/comment/Detail/@item.Id"  class="btn btn-primary btn-sm" style="color: white;">مشاهده نظر</a>
+                </div>
+              </div>
+          </td>
+        </tr>
+        i++;
+}
+   
+}
+      </tbody>
+    </table>
+  </div>
+  <!-- DataTable ends -->
+
+  <!-- add new sidebar starts -->
+ 
+  <!-- add new sidebar ends -->
+</section>
+<!-- Data list view end -->

@@ -1,0 +1,128 @@
+@model ViewModels.AdminViewModel.Baner.Vm_Baner
+@if (ViewBag.er != null)
+{
+<p class="alert alert-success">@ViewBag.er</p>
+}
+<!-- Basic Select2 start -->
+<form action="/admin/baner/add" method="POST" enctype="multipart/form-data">
+<section class="basic-select2">
+  <div class="row">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-content">
+          <div class="card-body">
+            <div class="row">
+            	<div class="col-12 mb-2">
+            	</div>
+            
+            <div class="col-sm-6 col-12">
+	            <div class="form-group">
+                      <h4 class="card-title"> ثبت فیلد </h4>
+				</div>
+		    </div>
+
+      	<div class="col-sm-6 col-12">
+	        <div class="form-group">
+                      <label for="basicInput">انتخاب زبان  </label>
+				    	<select class="select2 form-control" asp-for="Language">
+						           <option value="fa">فارسی</option>
+	                     <option value="en">انگلیسی</option>
+	                     <option value="tr">ترکی</option>
+	                     <option value="ar">عربی</option>
+					  	</select>
+			</div>
+      
+	    </div>
+
+        	<div class="col-sm-12 col-12">
+	            <div class="form-group">
+                      <label for="basicInput">  انتخاب محصول  </label>
+				    	<select class="select2 form-control" asp-for="CategoryProductIdSlid" asp-items="@ViewBag.list">
+						
+	                     
+					  	</select>
+		    	</div>
+          <div class="col-sm-12 col-12">
+	          <div class="form-group">
+                        <label for="basicInput">انتخاب شماره بنر  </label>
+				      	<select class="select2 form-control" asp-for="IdBaner">
+					  	           <option value="1">بنر شماره 1</option>
+                         <option value="2">بنر شماره 2</option>
+                         <option value="3">بنر شماره 3</option>
+                         <option value="4">بنر شماره 4</option>
+                         <option value="5">بنر شماره 5</option>
+                         <option value="6">بنر شماره 6</option>
+                         <option value="7">بنر شماره 7</option>
+                         <option value="8">بنر شماره 8</option>
+                         <option value="9">بنر شماره 9</option>
+					    	</select>
+			      </div>
+	        </div>
+               <div class="col-sm-6 col-12">
+              <p class="alert alert-success">
+                               <strong>اندازه مناسب بنرها:</strong>
+                               حتما باید 
+                               <strong style="color: brown;">طبق اندازه تعریف شده </strong>
+                                باشد.
+                             </p>
+                         
+                             <p style="color: #2F4F4F; font-weight: bolder;">اندازه بنر شماره یک و دو:
+                            <strong style="color: brown;">428*856 </strong>
+
+                             </p>
+                         
+                             <p style="color: #2F4F4F; font-weight: bolder;">اندازه بنر شماره سه و چهار:
+                            <strong style="color: brown;">300*820 </strong>
+
+                             </p>
+                             <p style="color: #2F4F4F; font-weight: bolder;">اندازه بنر شماره پنج تا هشت:
+                            <strong style="color: brown;">300*400 </strong>
+
+                             </p>
+
+                              <p style="color: #2F4F4F; font-weight: bolder;">اندازه بنر شماره نُه:
+                            <strong style="color: brown;">210*1656 </strong>
+                             </p>
+                             </div>
+             <div class="col-sm-6 col-12">
+				       <fieldset class="form-group">
+                     <div class="col-sm-6 col-12">
+                             <label for="file" class="btn btn-default">انتخاب تصویر بنر</label>
+                             <input required asp-for="img" type="file" accept="image/*" onchange="preview_image(event)" >
+                      </div>
+                       </fieldset>
+		        </div>
+
+ <div class="col-sm-12 col-12">
+				               <fieldset class="form-group text-center ">
+                             <img  id="output_image" src="/app-assets/images/ico/default.jpg" height=250px width=250px>
+                       </fieldset>
+		        </div>
+
+            
+             <div class="col-sm-12 col-12">
+                    <fieldset style="text-align: left;" class="form-group position-relative has-icon-left input-divider-left">
+                        <button type="submit" class="btn btn-success mr-1 mb-1">ثبت</button>
+                        <button type="button" class="btn btn-danger mr-1 mb-1">لغو</button>
+                    </fieldset>
+                </div>
+
+	        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Basic Select2 end -->
+</form>
+<script >
+  function preview_image(event) {
+    var reader = new FileReader();
+    reader.onload = function(){
+      var output = document.getElementById('output_image');
+      output.src = reader.result;
+    }
+    reader.readAsDataURL(event.target.files[0]);
+  }
+</script>

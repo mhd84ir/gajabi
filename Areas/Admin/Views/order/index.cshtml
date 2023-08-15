@@ -1,0 +1,59 @@
+
+
+    <!-- BEGIN: Content-->
+<section id="data-list-view" class="data-list-view-header">
+  <!-- DataTable starts -->
+  <div class="table-responsive">
+    <table class="table data-list-view">
+                                                                <thead>
+                                                                  <tr>
+                                                                    <th></th>
+                                                                    <th>ردیف</th>
+                                                                    <th>شناسه پیگیری</th>
+                                                                    <th>کاربر</th>
+                                                                    <th>آدرس</th>
+                                                                    <th>کد پستی</th>
+                                                                    <th>مبلغ (تومان)</th>
+                                                                    <th> تاریخ  </th>
+                                                                    <th> عملیات</th>
+                                                                  </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                  @{
+                                                                      if (ViewBag.order != null)
+                                                                      {
+                                                                        int i=1;
+                                                                        foreach (var item in ViewBag.order)
+                                                                        {
+                                                                            <tr>
+                                                                                <td></td>
+                                                                                <td class="product-category"> @i</td>
+                                                                                <td class="product-name">@item.RFactor</td>
+                                                                                <td class="product-name">@item.Id_user</td>
+                                                                                <td class="product-name">@item.Address</td>
+                                                                                <td class="product-name">@item.Post</td>
+                                                                                <td class="product-category">@item.Pay </td>
+                                                                                <td class="product-category">@item.Date_Order </td>
+                                                                                <td class="product-action">
+                                                                                    <div class="col-lg-3 col-md-3 mb-1">
+                                                                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                                                            <a href="/admin/order/detailfactor/@item.RFactor" class="btn btn-primary btn-sm" >  جزئیات </a>
+                                                                                            <a href="/admin/order/send/@item.RFactor" class="btn btn-success btn-sm" >  ارسال </a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                           i++;
+                                                            
+                                                                        }
+                                                            
+                                                                      }
+                                                                    }
+                                                                </tbody>
+                                                              </table>
+  </div>
+
+      
+
+      </section>
+<!-- Data list view end -->

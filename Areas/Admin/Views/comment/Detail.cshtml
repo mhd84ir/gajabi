@@ -1,0 +1,54 @@
+@model ViewModels.Area.Questions.Vm_Questions
+<div class="col-6 card p-2 ml-auto mr-auto">
+    <p class="row alert alert-warning text-center">نظر جدید</p>
+    <div class="row col-12 ml-auto mr-auto">
+        @if (ViewBag.nazarat != null)
+        {
+            foreach (var item in ViewBag.nazarat)
+            {
+                <div class="row col-12 ">
+                    <p class="col-5 text-primary">
+                        کالای شماره :
+                    </p>
+                    <p class="col-5">
+                        @item.product_id
+                    </p>
+                    <p class="col-5 text-primary">
+                        پرسش  :
+                    </p>
+                    <p class="col-12 ml-4">
+                        @item.Message
+                    </p>
+                </div>
+                if (@item.Answer != null)
+                {
+                    <p class="col-5 text-primary">
+                        پاسخ :
+                    </p>
+                    <div class="col-12 ml-4">
+                        @item.Answer
+                    </div>
+                }
+                else
+                {
+                    <p class="col-5 text-primary">
+                        پاسخ :
+                    </p>
+                    
+                    <div class="row col-12">
+                        <form action="/admin/comment/Answer" method="POST">
+                            <textarea class="col-12  pr-2 pt-2" rows="5"
+                                    placeholder="پاسخ خود را در مورد پرسش مطرح نمایید" asp-for="Answer">
+                            </textarea>
+                            <input type="number" hidden asp-for="Id" value="@item.Id" class="custom-control-input">
+                                    <button type="submit" class="btn-primary w-100 text-center ">
+                                         ثبت پاسخ
+                                    </button>
+                        </form>
+                    </div>
+                    
+                }
+            }  
+        }
+    </div>
+</div>
